@@ -76,7 +76,7 @@ try {
             l.name as location_name,
             t.name as turf_name,
             u.username,
-            COALESCE(p.status, 'pending') as payment_status
+            COALESCE(p.payment_status, 'pending') as payment_status
         FROM bookings b
         JOIN turfs t ON b.turf_id = t.id
         JOIN locations l ON t.location_id = l.id
