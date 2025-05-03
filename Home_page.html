@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Arena</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-image: url('img/BALL.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #0a0f2c;
+        }
+        .right-buttons {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .right-buttons img {
+            height: 40px;
+        }
+        .right-buttons button {
+            background: transparent;
+            border: 1px solid white;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .right-buttons button:hover {
+            background: white;
+            color: #0a0f2c;
+        }
+        .auth-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .auth-buttons a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 20px;
+            border: 1px solid white;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .auth-buttons a:hover {
+            background: white;
+            color: #0a0f2c;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            margin-top: 40px;
+        }
+        .container h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: black;
+            font-size: 2.5em;
+        }
+        .container h3 {
+            text-align: center;
+            color: #333;
+            font-size: 1.5em;
+            margin-bottom: 40px;
+        }
+        .location-dropdown {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .location-dropdown button {
+            background: black;
+            color: gold;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .location-dropdown button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            background: #333;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background: white;
+            min-width: 200px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            border-radius: 15px;
+            z-index: 1;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            transition: all 0.3s ease;
+        }
+        .dropdown-content a:hover {
+            background: #f1f1f1;
+            color: #0a0f2c;
+        }
+        .location-dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="right-buttons">
+            <img src="img/ArenaLOGO.png" alt="Logo">
+            <a href="Home_page.html"><button>Home</button></a>
+            <a href="Need Help.html"><button>Need Help?</button></a>
+        </div>
+        <div class="auth-buttons">
+            <a href="login.php">Sign In</a>
+            <a href="register.php">Sign Up</a>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Sports Arena</h1>
+        <h3>Select a specific location</h3>
+        <div class="location-dropdown">
+            <button>Locations</button>
+            <div class="dropdown-content">
+                <a href="Kothrud.html">Kothrud</a>
+                <a href="Baner.html">Baner</a>
+                <a href="Viman_nagar.html">Viman Nagar</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

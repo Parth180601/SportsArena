@@ -1,0 +1,2258 @@
+[2025-04-25 09:17:46] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:17:48] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:19:28] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:19:28] Attempting database connection...
+[2025-04-25 09:19:28] Database connection successful
+[2025-04-25 09:19:28] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:19:28] Total bookings: 2
+[2025-04-25 09:19:28] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:19:28] Occupancy rate: 0.7
+[2025-04-25 09:19:28] Executing turf distribution query
+[2025-04-25 09:19:28] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'location' in field list is ambiguous
+[2025-04-25 09:19:28] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:19:28] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:19:31] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:19:31] Attempting database connection...
+[2025-04-25 09:19:31] Database connection successful
+[2025-04-25 09:19:31] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:19:31] Total bookings: 2
+[2025-04-25 09:19:31] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:19:31] Occupancy rate: 0.7
+[2025-04-25 09:19:31] Executing turf distribution query
+[2025-04-25 09:19:31] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'location' in field list is ambiguous
+[2025-04-25 09:19:31] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:19:31] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:19:32] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:19:32] Attempting database connection...
+[2025-04-25 09:19:32] Database connection successful
+[2025-04-25 09:19:32] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:19:32] Total bookings: 2
+[2025-04-25 09:19:32] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:19:32] Occupancy rate: 0.7
+[2025-04-25 09:19:32] Executing turf distribution query
+[2025-04-25 09:19:32] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'location' in field list is ambiguous
+[2025-04-25 09:19:32] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:19:32] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:19:33] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:19:33] Attempting database connection...
+[2025-04-25 09:19:33] Database connection successful
+[2025-04-25 09:19:33] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:19:33] Total bookings: 2
+[2025-04-25 09:19:33] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:19:33] Occupancy rate: 0.7
+[2025-04-25 09:19:33] Executing turf distribution query
+[2025-04-25 09:19:33] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'location' in field list is ambiguous
+[2025-04-25 09:19:33] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:19:33] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:19:33] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:19:33] Attempting database connection...
+[2025-04-25 09:19:33] Database connection successful
+[2025-04-25 09:19:33] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:19:33] Total bookings: 2
+[2025-04-25 09:19:33] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:19:33] Occupancy rate: 0.7
+[2025-04-25 09:19:33] Executing turf distribution query
+[2025-04-25 09:19:33] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'location' in field list is ambiguous
+[2025-04-25 09:19:33] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:19:33] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:19:34] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:19:34] Attempting database connection...
+[2025-04-25 09:19:34] Database connection successful
+[2025-04-25 09:19:34] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:19:34] Total bookings: 2
+[2025-04-25 09:19:34] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:19:34] Occupancy rate: 0.7
+[2025-04-25 09:19:34] Executing turf distribution query
+[2025-04-25 09:19:34] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'location' in field list is ambiguous
+[2025-04-25 09:19:34] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:19:34] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:19:35] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:19:35] Attempting database connection...
+[2025-04-25 09:19:35] Database connection successful
+[2025-04-25 09:19:35] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:19:35] Total bookings: 2
+[2025-04-25 09:19:35] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:19:35] Occupancy rate: 0.7
+[2025-04-25 09:19:35] Executing turf distribution query
+[2025-04-25 09:19:35] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'location' in field list is ambiguous
+[2025-04-25 09:19:35] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:19:35] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:19:35] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:19:35] Attempting database connection...
+[2025-04-25 09:19:35] Database connection successful
+[2025-04-25 09:19:35] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:19:35] Total bookings: 2
+[2025-04-25 09:19:35] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:19:35] Occupancy rate: 0.7
+[2025-04-25 09:19:35] Executing turf distribution query
+[2025-04-25 09:19:35] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'location' in field list is ambiguous
+[2025-04-25 09:19:35] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:19:35] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:19:35] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:19:35] Attempting database connection...
+[2025-04-25 09:19:35] Database connection successful
+[2025-04-25 09:19:35] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:19:35] Total bookings: 2
+[2025-04-25 09:19:35] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:19:35] Occupancy rate: 0.7
+[2025-04-25 09:19:35] Executing turf distribution query
+[2025-04-25 09:19:35] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'location' in field list is ambiguous
+[2025-04-25 09:19:35] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:19:35] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:20:36] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:20:36] Attempting database connection...
+[2025-04-25 09:20:36] Database connection successful
+[2025-04-25 09:20:36] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:20:36] Total bookings: 4
+[2025-04-25 09:20:36] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:20:36] Occupancy rate: 0.9
+[2025-04-25 09:20:36] Executing turf distribution query
+[2025-04-25 09:20:36] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'location' in field list is ambiguous
+[2025-04-25 09:20:36] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:20:36] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:20:38] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:20:38] Attempting database connection...
+[2025-04-25 09:20:38] Database connection successful
+[2025-04-25 09:20:38] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:20:38] Total bookings: 4
+[2025-04-25 09:20:38] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:20:38] Occupancy rate: 0.9
+[2025-04-25 09:20:38] Executing turf distribution query
+[2025-04-25 09:20:38] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'location' in field list is ambiguous
+[2025-04-25 09:20:38] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:20:38] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:20:39] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:20:39] Attempting database connection...
+[2025-04-25 09:20:39] Database connection successful
+[2025-04-25 09:20:39] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:20:39] Total bookings: 4
+[2025-04-25 09:20:39] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:20:39] Occupancy rate: 0.9
+[2025-04-25 09:20:39] Executing turf distribution query
+[2025-04-25 09:20:39] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'location' in field list is ambiguous
+[2025-04-25 09:20:39] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:20:39] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:20:39] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:20:39] Attempting database connection...
+[2025-04-25 09:20:39] Database connection successful
+[2025-04-25 09:20:39] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:20:39] Total bookings: 4
+[2025-04-25 09:20:39] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:20:39] Occupancy rate: 0.9
+[2025-04-25 09:20:39] Executing turf distribution query
+[2025-04-25 09:20:39] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'location' in field list is ambiguous
+[2025-04-25 09:20:39] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:20:39] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:20:39] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:20:39] Attempting database connection...
+[2025-04-25 09:20:39] Database connection successful
+[2025-04-25 09:20:39] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:20:39] Total bookings: 4
+[2025-04-25 09:20:39] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:20:39] Occupancy rate: 0.9
+[2025-04-25 09:20:39] Executing turf distribution query
+[2025-04-25 09:20:39] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'location' in field list is ambiguous
+[2025-04-25 09:20:39] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:20:39] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:20:39] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:20:39] Attempting database connection...
+[2025-04-25 09:20:39] Database connection successful
+[2025-04-25 09:20:39] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:20:39] Total bookings: 4
+[2025-04-25 09:20:39] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:20:39] Occupancy rate: 0.9
+[2025-04-25 09:20:39] Executing turf distribution query
+[2025-04-25 09:20:39] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'location' in field list is ambiguous
+[2025-04-25 09:20:39] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:20:39] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:20:41] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:20:41] Attempting database connection...
+[2025-04-25 09:20:41] Database connection successful
+[2025-04-25 09:20:41] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:20:41] Total bookings: 4
+[2025-04-25 09:20:41] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:20:41] Occupancy rate: 0.9
+[2025-04-25 09:20:41] Executing turf distribution query
+[2025-04-25 09:20:41] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'location' in field list is ambiguous
+[2025-04-25 09:20:41] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:20:41] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:22:24] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:22:24] Attempting database connection...
+[2025-04-25 09:22:24] Database connection successful
+[2025-04-25 09:22:24] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:22:24] Total bookings: 4
+[2025-04-25 09:22:24] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:22:24] Occupancy rate: 0.9
+[2025-04-25 09:22:24] Executing turf distribution query
+[2025-04-25 09:22:24] Turf distribution results: Array
+(
+    [0] => Array
+        (
+            [location_name] => Kothrud
+            [booking_count] => 4
+        )
+
+    [1] => Array
+        (
+            [location_name] => Baner
+            [booking_count] => 0
+        )
+
+    [2] => Array
+        (
+            [location_name] => Viman Nagar
+            [booking_count] => 0
+        )
+
+)
+
+[2025-04-25 09:22:24] Executing recent bookings query
+[2025-04-25 09:22:24] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.status' in 'field list'
+[2025-04-25 09:22:24] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:22:24] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:22:25] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:22:25] Attempting database connection...
+[2025-04-25 09:22:25] Database connection successful
+[2025-04-25 09:22:25] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:22:25] Total bookings: 4
+[2025-04-25 09:22:25] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:22:25] Occupancy rate: 0.9
+[2025-04-25 09:22:25] Executing turf distribution query
+[2025-04-25 09:22:25] Turf distribution results: Array
+(
+    [0] => Array
+        (
+            [location_name] => Kothrud
+            [booking_count] => 4
+        )
+
+    [1] => Array
+        (
+            [location_name] => Baner
+            [booking_count] => 0
+        )
+
+    [2] => Array
+        (
+            [location_name] => Viman Nagar
+            [booking_count] => 0
+        )
+
+)
+
+[2025-04-25 09:22:25] Executing recent bookings query
+[2025-04-25 09:22:25] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.status' in 'field list'
+[2025-04-25 09:22:25] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:22:25] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:22:25] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:22:25] Attempting database connection...
+[2025-04-25 09:22:25] Database connection successful
+[2025-04-25 09:22:25] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:22:25] Total bookings: 4
+[2025-04-25 09:22:25] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:22:25] Occupancy rate: 0.9
+[2025-04-25 09:22:25] Executing turf distribution query
+[2025-04-25 09:22:25] Turf distribution results: Array
+(
+    [0] => Array
+        (
+            [location_name] => Kothrud
+            [booking_count] => 4
+        )
+
+    [1] => Array
+        (
+            [location_name] => Baner
+            [booking_count] => 0
+        )
+
+    [2] => Array
+        (
+            [location_name] => Viman Nagar
+            [booking_count] => 0
+        )
+
+)
+
+[2025-04-25 09:22:25] Executing recent bookings query
+[2025-04-25 09:22:25] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.status' in 'field list'
+[2025-04-25 09:22:25] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:22:25] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:22:26] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:22:26] Attempting database connection...
+[2025-04-25 09:22:26] Database connection successful
+[2025-04-25 09:22:26] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:22:26] Total bookings: 4
+[2025-04-25 09:22:26] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:22:26] Occupancy rate: 0.9
+[2025-04-25 09:22:26] Executing turf distribution query
+[2025-04-25 09:22:26] Turf distribution results: Array
+(
+    [0] => Array
+        (
+            [location_name] => Kothrud
+            [booking_count] => 4
+        )
+
+    [1] => Array
+        (
+            [location_name] => Baner
+            [booking_count] => 0
+        )
+
+    [2] => Array
+        (
+            [location_name] => Viman Nagar
+            [booking_count] => 0
+        )
+
+)
+
+[2025-04-25 09:22:26] Executing recent bookings query
+[2025-04-25 09:22:26] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.status' in 'field list'
+[2025-04-25 09:22:26] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:22:26] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:24:48] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:24:48] Attempting database connection...
+[2025-04-25 09:24:48] Database connection successful
+[2025-04-25 09:24:48] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:24:48] Total bookings: 10
+[2025-04-25 09:24:48] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:24:48] Occupancy rate: 1.4
+[2025-04-25 09:24:48] Executing turf distribution query
+[2025-04-25 09:24:48] Turf distribution results: Array
+(
+    [0] => Array
+        (
+            [location_name] => Kothrud
+            [booking_count] => 6
+        )
+
+    [1] => Array
+        (
+            [location_name] => Baner
+            [booking_count] => 2
+        )
+
+    [2] => Array
+        (
+            [location_name] => Viman Nagar
+            [booking_count] => 2
+        )
+
+)
+
+[2025-04-25 09:24:48] Executing recent bookings query
+[2025-04-25 09:24:48] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.status' in 'field list'
+[2025-04-25 09:24:48] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:24:48] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:24:50] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:24:50] Attempting database connection...
+[2025-04-25 09:24:50] Database connection successful
+[2025-04-25 09:24:50] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:24:50] Total bookings: 10
+[2025-04-25 09:24:50] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:24:50] Occupancy rate: 1.4
+[2025-04-25 09:24:50] Executing turf distribution query
+[2025-04-25 09:24:50] Turf distribution results: Array
+(
+    [0] => Array
+        (
+            [location_name] => Kothrud
+            [booking_count] => 6
+        )
+
+    [1] => Array
+        (
+            [location_name] => Baner
+            [booking_count] => 2
+        )
+
+    [2] => Array
+        (
+            [location_name] => Viman Nagar
+            [booking_count] => 2
+        )
+
+)
+
+[2025-04-25 09:24:50] Executing recent bookings query
+[2025-04-25 09:24:50] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.status' in 'field list'
+[2025-04-25 09:24:50] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:24:50] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:24:51] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:24:51] Attempting database connection...
+[2025-04-25 09:24:51] Database connection successful
+[2025-04-25 09:24:51] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:24:51] Total bookings: 10
+[2025-04-25 09:24:51] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:24:51] Occupancy rate: 1.4
+[2025-04-25 09:24:51] Executing turf distribution query
+[2025-04-25 09:24:51] Turf distribution results: Array
+(
+    [0] => Array
+        (
+            [location_name] => Kothrud
+            [booking_count] => 6
+        )
+
+    [1] => Array
+        (
+            [location_name] => Baner
+            [booking_count] => 2
+        )
+
+    [2] => Array
+        (
+            [location_name] => Viman Nagar
+            [booking_count] => 2
+        )
+
+)
+
+[2025-04-25 09:24:51] Executing recent bookings query
+[2025-04-25 09:24:51] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.status' in 'field list'
+[2025-04-25 09:24:51] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:24:51] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:24:51] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:24:51] Attempting database connection...
+[2025-04-25 09:24:51] Database connection successful
+[2025-04-25 09:24:51] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:24:51] Total bookings: 10
+[2025-04-25 09:24:51] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:24:51] Occupancy rate: 1.4
+[2025-04-25 09:24:51] Executing turf distribution query
+[2025-04-25 09:24:51] Turf distribution results: Array
+(
+    [0] => Array
+        (
+            [location_name] => Kothrud
+            [booking_count] => 6
+        )
+
+    [1] => Array
+        (
+            [location_name] => Baner
+            [booking_count] => 2
+        )
+
+    [2] => Array
+        (
+            [location_name] => Viman Nagar
+            [booking_count] => 2
+        )
+
+)
+
+[2025-04-25 09:24:51] Executing recent bookings query
+[2025-04-25 09:24:51] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.status' in 'field list'
+[2025-04-25 09:24:51] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:24:51] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:24:51] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:24:51] Attempting database connection...
+[2025-04-25 09:24:51] Database connection successful
+[2025-04-25 09:24:51] Executing query: SELECT COUNT(*) as total FROM bookings
+[2025-04-25 09:24:51] Total bookings: 10
+[2025-04-25 09:24:51] Executing occupancy query for date: 2025-04-25
+[2025-04-25 09:24:51] Occupancy rate: 1.4
+[2025-04-25 09:24:51] Executing turf distribution query
+[2025-04-25 09:24:51] Turf distribution results: Array
+(
+    [0] => Array
+        (
+            [location_name] => Kothrud
+            [booking_count] => 6
+        )
+
+    [1] => Array
+        (
+            [location_name] => Baner
+            [booking_count] => 2
+        )
+
+    [2] => Array
+        (
+            [location_name] => Viman Nagar
+            [booking_count] => 2
+        )
+
+)
+
+[2025-04-25 09:24:51] Executing recent bookings query
+[2025-04-25 09:24:51] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.status' in 'field list'
+[2025-04-25 09:24:51] Final booking_stats array: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:24:51] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:29:03] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:29:05] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:30:58] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:30:58] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:31:00] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:31:00] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-25 09:31:01] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-25 09:31:01] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-26 06:31:43] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-26 06:31:43] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-28 11:54:52] Session data in admin_dashboard.php: Array
+(
+    [on_login_page] => 1
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+)
+
+[2025-04-28 11:54:52] User not authorized. Redirecting to login.
+[2025-04-28 11:55:07] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-28 11:55:07] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-28 11:55:09] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-28 11:55:09] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-28 11:55:09] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-28 11:55:10] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-28 11:55:10] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-28 11:55:10] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-28 11:55:10] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-28 11:55:10] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-28 11:55:10] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-28 11:55:10] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-28 11:55:10] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-28 11:55:10] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-28 11:55:10] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-28 11:55:10] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-28 11:55:11] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-28 11:55:11] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-28 11:55:11] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-28 11:55:11] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-28 11:57:25] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-28 11:57:25] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-28 12:00:16] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-28 12:00:17] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-28 12:00:17] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-28 12:00:17] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-28 12:00:18] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-28 12:00:18] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-28 12:00:18] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-28 12:00:18] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-28 12:00:18] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-28 12:00:18] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-28 12:02:19] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-28 12:02:19] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-04-28 12:17:03] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 2
+    [username] => Parth@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-04-28 12:17:03] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-05-01 11:03:03] Session data in admin_dashboard.php: Array
+(
+    [on_login_page] => 1
+    [user_id] => 4
+    [username] => 18@admin
+    [is_admin] => 1
+    [loggedin] => 1
+)
+
+[2025-05-01 11:03:03] User not authorized. Redirecting to login.
+[2025-05-01 11:03:13] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => 18@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-05-01 11:03:13] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-05-01 11:03:57] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => 18@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-05-01 11:03:57] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-05-01 11:03:58] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => 18@admin
+    [is_admin] => 1
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-05-01 11:03:58] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-05-01 11:08:13] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 5
+    [username] => Turf_Parth
+    [is_admin] => 
+    [loggedin] => 1
+    [role] => user
+)
+
+[2025-05-01 11:08:13] User not authorized. Redirecting to login.
+[2025-05-01 11:08:26] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => 18@admin
+    [is_admin] => 
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-05-01 11:08:26] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-05-01 11:08:28] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => 18@admin
+    [is_admin] => 
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-05-01 11:08:28] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-05-01 11:08:29] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => 18@admin
+    [is_admin] => 
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-05-01 11:08:29] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-05-01 11:08:30] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => 18@admin
+    [is_admin] => 
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-05-01 11:08:30] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-05-01 11:08:30] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => 18@admin
+    [is_admin] => 
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-05-01 11:08:30] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-05-01 11:08:30] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => 18@admin
+    [is_admin] => 
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-05-01 11:08:30] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-05-01 11:08:31] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => 18@admin
+    [is_admin] => 
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-05-01 11:08:31] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-05-01 11:08:31] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => 18@admin
+    [is_admin] => 
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-05-01 11:08:31] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-05-01 11:08:32] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => 18@admin
+    [is_admin] => 
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-05-01 11:08:32] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-05-01 11:08:32] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => 18@admin
+    [is_admin] => 
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-05-01 11:08:32] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-05-01 11:11:11] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => 18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-05-01 11:11:11] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-05-01 11:11:13] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => 18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-05-01 11:11:13] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-05-01 11:14:16] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => 18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-05-01 11:14:16] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+
+[2025-05-01 11:14:19] Session data in admin_dashboard.php: Array
+(
+    [user_id] => 4
+    [username] => 18@admin
+    [loggedin] => 1
+    [role] => admin
+)
+
+[2025-05-01 11:14:19] Booking stats in admin_dashboard.php: Array
+(
+    [total_bookings] => 0
+    [occupancy_rate] => 0
+    [turfs_by_location] => Array
+        (
+        )
+
+    [recent_bookings] => Array
+        (
+        )
+
+)
+

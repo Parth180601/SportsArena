@@ -1,0 +1,39 @@
+body{
+    background-image: url('img/BALL.jpg');
+    background-size: cover;
+}
+
+
+
+.About{
+    color: aliceblue;
+}
+
+
+h1{
+    background-color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline;
+    position: relative;
+    left: 44%;
+    padding: 14px;
+    text-decoration: underline;
+    
+}
+h2{
+    color: black;
+    background-color: white;
+    display: table;
+}
+
+h3{
+    display: table;
+    background-color: azure;
+    color: black;
+    font-size: x-large;
+}
+
+p{
+    font-size: 30px;
+    color: black;
+}

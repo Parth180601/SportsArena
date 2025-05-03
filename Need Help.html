@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Need Help</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: gold;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #0a0f2c;
+        }
+        .right-buttons {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .right-buttons img {
+            height: 40px;
+        }
+        .right-buttons button {
+            background: transparent;
+            border: 1px solid white;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .right-buttons button:hover {
+            background: white;
+            color: #0a0f2c;
+        }
+        .auth-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .auth-buttons a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 20px;
+            border: 1px solid white;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .auth-buttons a:hover {
+            background: white;
+            color: #0a0f2c;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 40px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .container h2 {
+            color: #333;
+            margin-bottom: 20px;
+            line-height: 1.6;
+            font-size: 1.2em;
+        }
+        .contact-info {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+        .contact-info h3 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="right-buttons">
+            <img src="img/ArenaLOGO.png" alt="Logo">
+            <a href="Home_page.html"><button>Home</button></a>
+            <a href="Need Help.html"><button>Need Help?</button></a>
+        </div>
+        <div class="auth-buttons">
+            <a href="login.php">Login</a>
+            <a href="register.php">Register</a>
+        </div>
+    </header>
+    <div class="container">
+        <h2>This system ensures that the user get their desired search results within couple of seconds, instead of searching numbers on google and contacting to each turf manager for booking slots and bargaining the rates. Customers who book slots will instantly get message of the booked slot and bill attached to it.</h2>
+        <div class="contact-info">
+            <h3>Contact us: +91-9158715130</h3>
+            <h3>Email Id: sportsarena@gmail.com</h3>
+        </div>
+    </div>
+</body>
+</html>

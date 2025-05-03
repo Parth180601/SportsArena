@@ -1,0 +1,3292 @@
+[25-Apr-2025 11:45:22 Asia/Kolkata] Booking page - Session ID: 0eni8v3lu742ffil93odaip5b0
+[25-Apr-2025 11:45:22 Asia/Kolkata] Booking page - Session status: 2
+[25-Apr-2025 11:45:22 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 1
+    [username] => Parth1806
+    [loggedin] => 1
+    [is_admin] => 
+)
+
+[25-Apr-2025 11:45:22 Asia/Kolkata] User ID in session: 1
+[25-Apr-2025 11:45:22 Asia/Kolkata] Username in session: Parth1806
+[25-Apr-2025 11:45:22 Asia/Kolkata] Logged in status: true
+[25-Apr-2025 11:45:22 Asia/Kolkata] Current date: 2025-04-25
+[25-Apr-2025 11:45:22 Asia/Kolkata] Current time: 11:45:22
+[25-Apr-2025 11:45:22 Asia/Kolkata] Booked slots: Array
+(
+    [2025-04-25] => Array
+        (
+            [0] => 12:00:00
+            [1] => 13:00:00
+            [2] => 14:00:00
+            [3] => 15:00:00
+            [4] => 17:00:00
+        )
+
+    [2025-04-26] => Array
+        (
+            [0] => 17:00:00
+        )
+
+    [2025-04-27] => Array
+        (
+        )
+
+    [2025-04-28] => Array
+        (
+        )
+
+    [2025-04-29] => Array
+        (
+        )
+
+    [2025-04-30] => Array
+        (
+        )
+
+    [2025-05-01] => Array
+        (
+        )
+
+)
+
+[25-Apr-2025 11:45:22 Asia/Kolkata] All bookings in database:
+[25-Apr-2025 11:45:22 Asia/Kolkata] Array
+(
+    [id] => 4
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 12:00:00
+    [created_at] => 2025-04-25 11:35:04
+)
+
+[25-Apr-2025 11:45:22 Asia/Kolkata] Array
+(
+    [id] => 5
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 13:00:00
+    [created_at] => 2025-04-25 11:38:10
+)
+
+[25-Apr-2025 11:45:22 Asia/Kolkata] Array
+(
+    [id] => 6
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 14:00:00
+    [created_at] => 2025-04-25 11:41:05
+)
+
+[25-Apr-2025 11:45:22 Asia/Kolkata] Array
+(
+    [id] => 8
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 15:00:00
+    [created_at] => 2025-04-25 11:41:26
+)
+
+[25-Apr-2025 11:45:22 Asia/Kolkata] Array
+(
+    [id] => 3
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 17:00:00
+    [created_at] => 2025-04-25 11:34:27
+)
+
+[25-Apr-2025 11:45:22 Asia/Kolkata] Array
+(
+    [id] => 2
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-26
+    [booking_time] => 17:00:00
+    [created_at] => 2025-04-25 11:30:32
+)
+
+[25-Apr-2025 11:45:22 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[25-Apr-2025 11:45:22 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[25-Apr-2025 11:45:22 Asia/Kolkata] Non-POST request received
+[25-Apr-2025 11:45:32 Asia/Kolkata] Booking page - Session ID: 0eni8v3lu742ffil93odaip5b0
+[25-Apr-2025 11:45:32 Asia/Kolkata] Booking page - Session status: 2
+[25-Apr-2025 11:45:32 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 1
+    [username] => Parth1806
+    [loggedin] => 1
+    [is_admin] => 
+)
+
+[25-Apr-2025 11:45:32 Asia/Kolkata] User ID in session: 1
+[25-Apr-2025 11:45:32 Asia/Kolkata] Username in session: Parth1806
+[25-Apr-2025 11:45:32 Asia/Kolkata] Logged in status: true
+[25-Apr-2025 11:45:32 Asia/Kolkata] Current date: 2025-04-25
+[25-Apr-2025 11:45:32 Asia/Kolkata] Current time: 11:45:32
+[25-Apr-2025 11:45:32 Asia/Kolkata] Booked slots: Array
+(
+    [2025-04-25] => Array
+        (
+            [0] => 12:00:00
+            [1] => 13:00:00
+            [2] => 14:00:00
+            [3] => 15:00:00
+            [4] => 17:00:00
+        )
+
+    [2025-04-26] => Array
+        (
+            [0] => 17:00:00
+        )
+
+    [2025-04-27] => Array
+        (
+        )
+
+    [2025-04-28] => Array
+        (
+        )
+
+    [2025-04-29] => Array
+        (
+        )
+
+    [2025-04-30] => Array
+        (
+        )
+
+    [2025-05-01] => Array
+        (
+        )
+
+)
+
+[25-Apr-2025 11:45:32 Asia/Kolkata] All bookings in database:
+[25-Apr-2025 11:45:32 Asia/Kolkata] Array
+(
+    [id] => 4
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 12:00:00
+    [created_at] => 2025-04-25 11:35:04
+)
+
+[25-Apr-2025 11:45:32 Asia/Kolkata] Array
+(
+    [id] => 5
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 13:00:00
+    [created_at] => 2025-04-25 11:38:10
+)
+
+[25-Apr-2025 11:45:32 Asia/Kolkata] Array
+(
+    [id] => 6
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 14:00:00
+    [created_at] => 2025-04-25 11:41:05
+)
+
+[25-Apr-2025 11:45:32 Asia/Kolkata] Array
+(
+    [id] => 8
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 15:00:00
+    [created_at] => 2025-04-25 11:41:26
+)
+
+[25-Apr-2025 11:45:32 Asia/Kolkata] Array
+(
+    [id] => 3
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 17:00:00
+    [created_at] => 2025-04-25 11:34:27
+)
+
+[25-Apr-2025 11:45:32 Asia/Kolkata] Array
+(
+    [id] => 2
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-26
+    [booking_time] => 17:00:00
+    [created_at] => 2025-04-25 11:30:32
+)
+
+[25-Apr-2025 11:45:32 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[25-Apr-2025 11:45:32 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[25-Apr-2025 11:45:32 Asia/Kolkata] 
+=== New Booking Request ===
+[25-Apr-2025 11:45:32 Asia/Kolkata] Time: 2025-04-25 11:45:32
+[25-Apr-2025 11:45:32 Asia/Kolkata] POST data: Array
+(
+    [booking_date] => 2025-04-25
+    [selected_slots] => ["16:00:00"]
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[25-Apr-2025 11:45:32 Asia/Kolkata] Session data: Array
+(
+    [user_id] => 1
+    [username] => Parth1806
+    [loggedin] => 1
+    [is_admin] => 
+)
+
+[25-Apr-2025 11:45:32 Asia/Kolkata] Decoded booking data:
+[25-Apr-2025 11:45:32 Asia/Kolkata] Date: 2025-04-25
+[25-Apr-2025 11:45:32 Asia/Kolkata] Slots: Array
+(
+    [0] => 16:00:00
+)
+
+[25-Apr-2025 11:45:32 Asia/Kolkata] Location: kothrud
+[25-Apr-2025 11:45:32 Asia/Kolkata] Turf: dragon_ball
+[25-Apr-2025 11:45:32 Asia/Kolkata] User ID: 1
+[25-Apr-2025 11:45:32 Asia/Kolkata] Starting transaction
+[25-Apr-2025 11:45:32 Asia/Kolkata] Preparing to insert booking: User=1, Date=2025-04-25, Time=16:00:00
+[25-Apr-2025 11:45:32 Asia/Kolkata] Successfully inserted booking. Insert ID: 9
+[25-Apr-2025 11:45:32 Asia/Kolkata] All bookings inserted successfully, transaction committed
+[25-Apr-2025 11:45:42 Asia/Kolkata] Booking page - Session ID: 0eni8v3lu742ffil93odaip5b0
+[25-Apr-2025 11:45:42 Asia/Kolkata] Booking page - Session status: 2
+[25-Apr-2025 11:45:42 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 1
+    [username] => Parth1806
+    [loggedin] => 1
+    [is_admin] => 
+)
+
+[25-Apr-2025 11:45:42 Asia/Kolkata] User ID in session: 1
+[25-Apr-2025 11:45:42 Asia/Kolkata] Username in session: Parth1806
+[25-Apr-2025 11:45:42 Asia/Kolkata] Logged in status: true
+[25-Apr-2025 11:45:42 Asia/Kolkata] Current date: 2025-04-25
+[25-Apr-2025 11:45:42 Asia/Kolkata] Current time: 11:45:42
+[25-Apr-2025 11:45:42 Asia/Kolkata] Booked slots: Array
+(
+    [2025-04-25] => Array
+        (
+            [0] => 12:00:00
+            [1] => 13:00:00
+            [2] => 14:00:00
+            [3] => 15:00:00
+            [4] => 16:00:00
+            [5] => 17:00:00
+        )
+
+    [2025-04-26] => Array
+        (
+            [0] => 17:00:00
+        )
+
+    [2025-04-27] => Array
+        (
+        )
+
+    [2025-04-28] => Array
+        (
+        )
+
+    [2025-04-29] => Array
+        (
+        )
+
+    [2025-04-30] => Array
+        (
+        )
+
+    [2025-05-01] => Array
+        (
+        )
+
+)
+
+[25-Apr-2025 11:45:42 Asia/Kolkata] All bookings in database:
+[25-Apr-2025 11:45:42 Asia/Kolkata] Array
+(
+    [id] => 2
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-26
+    [booking_time] => 17:00:00
+    [created_at] => 2025-04-25 11:30:32
+)
+
+[25-Apr-2025 11:45:42 Asia/Kolkata] Array
+(
+    [id] => 3
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 17:00:00
+    [created_at] => 2025-04-25 11:34:27
+)
+
+[25-Apr-2025 11:45:42 Asia/Kolkata] Array
+(
+    [id] => 4
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 12:00:00
+    [created_at] => 2025-04-25 11:35:04
+)
+
+[25-Apr-2025 11:45:42 Asia/Kolkata] Array
+(
+    [id] => 5
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 13:00:00
+    [created_at] => 2025-04-25 11:38:10
+)
+
+[25-Apr-2025 11:45:42 Asia/Kolkata] Array
+(
+    [id] => 6
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 14:00:00
+    [created_at] => 2025-04-25 11:41:05
+)
+
+[25-Apr-2025 11:45:42 Asia/Kolkata] Array
+(
+    [id] => 8
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 15:00:00
+    [created_at] => 2025-04-25 11:41:26
+)
+
+[25-Apr-2025 11:45:42 Asia/Kolkata] Array
+(
+    [id] => 9
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 16:00:00
+    [created_at] => 2025-04-25 11:45:32
+)
+
+[25-Apr-2025 11:45:42 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[25-Apr-2025 11:45:42 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[25-Apr-2025 11:45:42 Asia/Kolkata] Non-POST request received
+[25-Apr-2025 11:48:46 Asia/Kolkata] Booking page - Session ID: 0eni8v3lu742ffil93odaip5b0
+[25-Apr-2025 11:48:46 Asia/Kolkata] Booking page - Session status: 2
+[25-Apr-2025 11:48:46 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 1
+    [username] => Parth1806
+    [loggedin] => 1
+    [is_admin] => 
+)
+
+[25-Apr-2025 11:48:46 Asia/Kolkata] User ID in session: 1
+[25-Apr-2025 11:48:46 Asia/Kolkata] Username in session: Parth1806
+[25-Apr-2025 11:48:46 Asia/Kolkata] Logged in status: true
+[25-Apr-2025 11:48:46 Asia/Kolkata] Current date: 2025-04-25
+[25-Apr-2025 11:48:46 Asia/Kolkata] Current time: 11:48:46
+[25-Apr-2025 11:48:46 Asia/Kolkata] Booked slots: Array
+(
+    [2025-04-25] => Array
+        (
+            [0] => 12:00:00
+            [1] => 13:00:00
+            [2] => 14:00:00
+            [3] => 15:00:00
+            [4] => 16:00:00
+            [5] => 17:00:00
+        )
+
+    [2025-04-26] => Array
+        (
+            [0] => 17:00:00
+        )
+
+    [2025-04-27] => Array
+        (
+        )
+
+    [2025-04-28] => Array
+        (
+        )
+
+    [2025-04-29] => Array
+        (
+        )
+
+    [2025-04-30] => Array
+        (
+        )
+
+    [2025-05-01] => Array
+        (
+        )
+
+)
+
+[25-Apr-2025 11:48:46 Asia/Kolkata] All bookings in database:
+[25-Apr-2025 11:48:46 Asia/Kolkata] Array
+(
+    [id] => 4
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 12:00:00
+    [created_at] => 2025-04-25 11:35:04
+)
+
+[25-Apr-2025 11:48:46 Asia/Kolkata] Array
+(
+    [id] => 5
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 13:00:00
+    [created_at] => 2025-04-25 11:38:10
+)
+
+[25-Apr-2025 11:48:46 Asia/Kolkata] Array
+(
+    [id] => 6
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 14:00:00
+    [created_at] => 2025-04-25 11:41:05
+)
+
+[25-Apr-2025 11:48:46 Asia/Kolkata] Array
+(
+    [id] => 8
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 15:00:00
+    [created_at] => 2025-04-25 11:41:26
+)
+
+[25-Apr-2025 11:48:46 Asia/Kolkata] Array
+(
+    [id] => 9
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 16:00:00
+    [created_at] => 2025-04-25 11:45:32
+)
+
+[25-Apr-2025 11:48:46 Asia/Kolkata] Array
+(
+    [id] => 3
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 17:00:00
+    [created_at] => 2025-04-25 11:34:27
+)
+
+[25-Apr-2025 11:48:46 Asia/Kolkata] Array
+(
+    [id] => 2
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-26
+    [booking_time] => 17:00:00
+    [created_at] => 2025-04-25 11:30:32
+)
+
+[25-Apr-2025 11:48:46 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[25-Apr-2025 11:48:46 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[25-Apr-2025 11:48:46 Asia/Kolkata] Non-POST request received
+[25-Apr-2025 11:48:57 Asia/Kolkata] Booking page - Session ID: 0eni8v3lu742ffil93odaip5b0
+[25-Apr-2025 11:48:57 Asia/Kolkata] Booking page - Session status: 2
+[25-Apr-2025 11:48:57 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 1
+    [username] => Parth1806
+    [loggedin] => 1
+    [is_admin] => 
+)
+
+[25-Apr-2025 11:48:57 Asia/Kolkata] User ID in session: 1
+[25-Apr-2025 11:48:57 Asia/Kolkata] Username in session: Parth1806
+[25-Apr-2025 11:48:57 Asia/Kolkata] Logged in status: true
+[25-Apr-2025 11:48:57 Asia/Kolkata] Current date: 2025-04-25
+[25-Apr-2025 11:48:57 Asia/Kolkata] Current time: 11:48:57
+[25-Apr-2025 11:48:57 Asia/Kolkata] Booked slots: Array
+(
+    [2025-04-25] => Array
+        (
+            [0] => 12:00:00
+            [1] => 13:00:00
+            [2] => 14:00:00
+            [3] => 15:00:00
+            [4] => 16:00:00
+            [5] => 17:00:00
+        )
+
+    [2025-04-26] => Array
+        (
+            [0] => 17:00:00
+        )
+
+    [2025-04-27] => Array
+        (
+        )
+
+    [2025-04-28] => Array
+        (
+        )
+
+    [2025-04-29] => Array
+        (
+        )
+
+    [2025-04-30] => Array
+        (
+        )
+
+    [2025-05-01] => Array
+        (
+        )
+
+)
+
+[25-Apr-2025 11:48:57 Asia/Kolkata] All bookings in database:
+[25-Apr-2025 11:48:57 Asia/Kolkata] Array
+(
+    [id] => 4
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 12:00:00
+    [created_at] => 2025-04-25 11:35:04
+)
+
+[25-Apr-2025 11:48:57 Asia/Kolkata] Array
+(
+    [id] => 5
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 13:00:00
+    [created_at] => 2025-04-25 11:38:10
+)
+
+[25-Apr-2025 11:48:57 Asia/Kolkata] Array
+(
+    [id] => 6
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 14:00:00
+    [created_at] => 2025-04-25 11:41:05
+)
+
+[25-Apr-2025 11:48:57 Asia/Kolkata] Array
+(
+    [id] => 8
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 15:00:00
+    [created_at] => 2025-04-25 11:41:26
+)
+
+[25-Apr-2025 11:48:57 Asia/Kolkata] Array
+(
+    [id] => 9
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 16:00:00
+    [created_at] => 2025-04-25 11:45:32
+)
+
+[25-Apr-2025 11:48:57 Asia/Kolkata] Array
+(
+    [id] => 3
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 17:00:00
+    [created_at] => 2025-04-25 11:34:27
+)
+
+[25-Apr-2025 11:48:57 Asia/Kolkata] Array
+(
+    [id] => 2
+    [user_id] => 1
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-26
+    [booking_time] => 17:00:00
+    [created_at] => 2025-04-25 11:30:32
+)
+
+[25-Apr-2025 11:48:57 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[25-Apr-2025 11:48:57 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[25-Apr-2025 11:48:57 Asia/Kolkata] 
+=== New Booking Request ===
+[25-Apr-2025 11:48:57 Asia/Kolkata] Time: 2025-04-25 11:48:57
+[25-Apr-2025 11:48:57 Asia/Kolkata] POST data: Array
+(
+    [booking_date] => 2025-04-25
+    [selected_slots] => ["18:00:00"]
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[25-Apr-2025 11:48:57 Asia/Kolkata] Session data: Array
+(
+    [user_id] => 1
+    [username] => Parth1806
+    [loggedin] => 1
+    [is_admin] => 
+)
+
+[25-Apr-2025 11:48:57 Asia/Kolkata] Decoded booking data:
+[25-Apr-2025 11:48:57 Asia/Kolkata] Date: 2025-04-25
+[25-Apr-2025 11:48:57 Asia/Kolkata] Slots: Array
+(
+    [0] => 18:00:00
+)
+
+[25-Apr-2025 11:48:57 Asia/Kolkata] Location: kothrud
+[25-Apr-2025 11:48:57 Asia/Kolkata] Turf: dragon_ball
+[25-Apr-2025 11:48:57 Asia/Kolkata] User ID: 1
+[25-Apr-2025 11:48:57 Asia/Kolkata] Starting transaction
+[25-Apr-2025 11:48:57 Asia/Kolkata] Preparing to insert booking: User=1, Date=2025-04-25, Time=18:00:00
+[25-Apr-2025 11:48:57 Asia/Kolkata] Successfully inserted booking. Insert ID: 10
+[25-Apr-2025 11:48:57 Asia/Kolkata] All bookings inserted successfully, transaction committed
+[25-Apr-2025 12:01:35 Asia/Kolkata] Booking page - Session ID: r0j4pp6rdadrbfjse1dfm5mgte
+[25-Apr-2025 12:01:35 Asia/Kolkata] Booking page - Session status: 2
+[25-Apr-2025 12:01:35 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 2
+    [username] => Parth Shinde
+    [loggedin] => 1
+    [is_admin] => 
+)
+
+[25-Apr-2025 12:01:35 Asia/Kolkata] User ID in session: 2
+[25-Apr-2025 12:01:35 Asia/Kolkata] Username in session: Parth Shinde
+[25-Apr-2025 12:01:35 Asia/Kolkata] Logged in status: true
+[25-Apr-2025 12:01:35 Asia/Kolkata] Current date: 2025-04-25
+[25-Apr-2025 12:01:35 Asia/Kolkata] Current time: 12:01:35
+[25-Apr-2025 12:01:35 Asia/Kolkata] Booked slots: Array
+(
+    [2025-04-25] => Array
+        (
+        )
+
+    [2025-04-26] => Array
+        (
+        )
+
+    [2025-04-27] => Array
+        (
+        )
+
+    [2025-04-28] => Array
+        (
+        )
+
+    [2025-04-29] => Array
+        (
+        )
+
+    [2025-04-30] => Array
+        (
+        )
+
+    [2025-05-01] => Array
+        (
+        )
+
+)
+
+[25-Apr-2025 12:01:35 Asia/Kolkata] All bookings in database:
+[25-Apr-2025 12:01:35 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[25-Apr-2025 12:01:35 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[25-Apr-2025 12:01:35 Asia/Kolkata] Non-POST request received
+[25-Apr-2025 08:31:46 Europe/Berlin] 
+=== New Booking Request ===
+[25-Apr-2025 08:31:46 Europe/Berlin] Time: 2025-04-25 08:31:46
+[25-Apr-2025 08:31:46 Europe/Berlin] POST data: Array
+(
+    [booking_date] => 2025-04-25
+    [selected_slots] => ["13:00:00"]
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[25-Apr-2025 08:31:46 Europe/Berlin] Session data: Array
+(
+    [user_id] => 2
+    [username] => Parth Shinde
+    [loggedin] => 1
+    [is_admin] => 
+)
+
+[25-Apr-2025 08:31:46 Europe/Berlin] Preparing to insert booking: User=2, Date=2025-04-25, Time=13:00:00
+[25-Apr-2025 08:31:46 Europe/Berlin] Successfully inserted booking. Insert ID: 1
+[25-Apr-2025 08:31:46 Europe/Berlin] All bookings inserted successfully, transaction committed
+[25-Apr-2025 12:01:49 Asia/Kolkata] Booking page - Session ID: r0j4pp6rdadrbfjse1dfm5mgte
+[25-Apr-2025 12:01:49 Asia/Kolkata] Booking page - Session status: 2
+[25-Apr-2025 12:01:49 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 2
+    [username] => Parth Shinde
+    [loggedin] => 1
+    [is_admin] => 
+)
+
+[25-Apr-2025 12:01:50 Asia/Kolkata] User ID in session: 2
+[25-Apr-2025 12:01:50 Asia/Kolkata] Username in session: Parth Shinde
+[25-Apr-2025 12:01:50 Asia/Kolkata] Logged in status: true
+[25-Apr-2025 12:01:50 Asia/Kolkata] Current date: 2025-04-25
+[25-Apr-2025 12:01:50 Asia/Kolkata] Current time: 12:01:50
+[25-Apr-2025 12:01:50 Asia/Kolkata] Booked slots: Array
+(
+    [2025-04-25] => Array
+        (
+            [0] => 13:00:00
+        )
+
+    [2025-04-26] => Array
+        (
+        )
+
+    [2025-04-27] => Array
+        (
+        )
+
+    [2025-04-28] => Array
+        (
+        )
+
+    [2025-04-29] => Array
+        (
+        )
+
+    [2025-04-30] => Array
+        (
+        )
+
+    [2025-05-01] => Array
+        (
+        )
+
+)
+
+[25-Apr-2025 12:01:50 Asia/Kolkata] All bookings in database:
+[25-Apr-2025 12:01:50 Asia/Kolkata] Array
+(
+    [id] => 1
+    [user_id] => 2
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 13:00:00
+    [created_at] => 2025-04-25 12:01:46
+)
+
+[25-Apr-2025 12:01:50 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[25-Apr-2025 12:01:50 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[25-Apr-2025 12:01:50 Asia/Kolkata] Non-POST request received
+[25-Apr-2025 12:07:03 Asia/Kolkata] Booking page - Session ID: enng8ujf5tgeme4smennu4t4je
+[25-Apr-2025 12:07:03 Asia/Kolkata] Booking page - Session status: 2
+[25-Apr-2025 12:07:03 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 3
+    [username] => Aabha0408
+    [loggedin] => 1
+    [is_admin] => 
+)
+
+[25-Apr-2025 12:07:03 Asia/Kolkata] User ID in session: 3
+[25-Apr-2025 12:07:03 Asia/Kolkata] Username in session: Aabha0408
+[25-Apr-2025 12:07:03 Asia/Kolkata] Logged in status: true
+[25-Apr-2025 12:07:03 Asia/Kolkata] Current date: 2025-04-25
+[25-Apr-2025 12:07:03 Asia/Kolkata] Current time: 12:07:03
+[25-Apr-2025 12:07:03 Asia/Kolkata] Booked slots: Array
+(
+    [2025-04-25] => Array
+        (
+            [0] => 13:00:00
+        )
+
+    [2025-04-26] => Array
+        (
+        )
+
+    [2025-04-27] => Array
+        (
+        )
+
+    [2025-04-28] => Array
+        (
+        )
+
+    [2025-04-29] => Array
+        (
+        )
+
+    [2025-04-30] => Array
+        (
+        )
+
+    [2025-05-01] => Array
+        (
+        )
+
+)
+
+[25-Apr-2025 12:07:03 Asia/Kolkata] All bookings in database:
+[25-Apr-2025 12:07:03 Asia/Kolkata] Array
+(
+    [id] => 1
+    [user_id] => 2
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 13:00:00
+    [created_at] => 2025-04-25 12:01:46
+)
+
+[25-Apr-2025 12:07:03 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[25-Apr-2025 12:07:03 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[25-Apr-2025 12:07:03 Asia/Kolkata] Non-POST request received
+[25-Apr-2025 08:37:10 Europe/Berlin] 
+=== Checking Booked Slots ===
+[25-Apr-2025 08:37:10 Europe/Berlin] Time: 2025-04-25 08:37:10
+[25-Apr-2025 08:37:10 Europe/Berlin] Received data: Array
+(
+    [date] => 2025-04-25
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[25-Apr-2025 08:37:10 Europe/Berlin] Checking bookings for:
+[25-Apr-2025 08:37:10 Europe/Berlin] Date: 2025-04-25
+[25-Apr-2025 08:37:10 Europe/Berlin] Location: kothrud
+[25-Apr-2025 08:37:10 Europe/Berlin] Turf: dragon_ball
+[25-Apr-2025 08:37:10 Europe/Berlin] Found booked slots: Array
+(
+    [0] => 13:00:00
+)
+
+[25-Apr-2025 12:25:38 Asia/Kolkata] Booking page - Session ID: 93ftbbp9i9gcenaqu33d2oundm
+[25-Apr-2025 12:25:38 Asia/Kolkata] Booking page - Session status: 2
+[25-Apr-2025 12:25:38 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 4
+    [username] => Parth18@admin
+    [is_admin] => 
+    [loggedin] => 1
+)
+
+[25-Apr-2025 12:25:38 Asia/Kolkata] User ID in session: 4
+[25-Apr-2025 12:25:38 Asia/Kolkata] Username in session: Parth18@admin
+[25-Apr-2025 12:25:38 Asia/Kolkata] Logged in status: true
+[25-Apr-2025 12:25:38 Asia/Kolkata] Current date: 2025-04-25
+[25-Apr-2025 12:25:38 Asia/Kolkata] Current time: 12:25:38
+[25-Apr-2025 12:25:38 Asia/Kolkata] Booked slots: Array
+(
+    [2025-04-25] => Array
+        (
+            [0] => 13:00:00
+        )
+
+    [2025-04-26] => Array
+        (
+        )
+
+    [2025-04-27] => Array
+        (
+        )
+
+    [2025-04-28] => Array
+        (
+        )
+
+    [2025-04-29] => Array
+        (
+        )
+
+    [2025-04-30] => Array
+        (
+        )
+
+    [2025-05-01] => Array
+        (
+        )
+
+)
+
+[25-Apr-2025 12:25:38 Asia/Kolkata] All bookings in database:
+[25-Apr-2025 12:25:38 Asia/Kolkata] Array
+(
+    [id] => 1
+    [user_id] => 2
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 13:00:00
+    [created_at] => 2025-04-25 12:01:46
+)
+
+[25-Apr-2025 12:25:38 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[25-Apr-2025 12:25:38 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[25-Apr-2025 12:25:38 Asia/Kolkata] Non-POST request received
+[25-Apr-2025 12:45:10 Asia/Kolkata] Booking page - Session ID: ulnfs3rnn493f0b0tm1i7k2nuf
+[25-Apr-2025 12:45:10 Asia/Kolkata] Booking page - Session status: 2
+[25-Apr-2025 12:45:10 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 2
+    [username] => Parth Shinde
+    [loggedin] => 1
+    [role] => user
+)
+
+[25-Apr-2025 12:45:10 Asia/Kolkata] User ID in session: 2
+[25-Apr-2025 12:45:10 Asia/Kolkata] Username in session: Parth Shinde
+[25-Apr-2025 12:45:10 Asia/Kolkata] Logged in status: true
+[25-Apr-2025 12:45:10 Asia/Kolkata] Current date: 2025-04-25
+[25-Apr-2025 12:45:10 Asia/Kolkata] Current time: 12:45:10
+[25-Apr-2025 12:45:10 Asia/Kolkata] Booked slots: Array
+(
+    [2025-04-25] => Array
+        (
+            [0] => 13:00:00
+        )
+
+    [2025-04-26] => Array
+        (
+        )
+
+    [2025-04-27] => Array
+        (
+        )
+
+    [2025-04-28] => Array
+        (
+        )
+
+    [2025-04-29] => Array
+        (
+        )
+
+    [2025-04-30] => Array
+        (
+        )
+
+    [2025-05-01] => Array
+        (
+        )
+
+)
+
+[25-Apr-2025 12:45:10 Asia/Kolkata] All bookings in database:
+[25-Apr-2025 12:45:10 Asia/Kolkata] Array
+(
+    [id] => 1
+    [user_id] => 2
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 13:00:00
+    [created_at] => 2025-04-25 12:01:46
+)
+
+[25-Apr-2025 12:45:10 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[25-Apr-2025 12:45:10 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[25-Apr-2025 12:45:10 Asia/Kolkata] Non-POST request received
+[25-Apr-2025 09:15:16 Europe/Berlin] 
+=== Checking Booked Slots ===
+[25-Apr-2025 09:15:16 Europe/Berlin] Time: 2025-04-25 09:15:16
+[25-Apr-2025 09:15:16 Europe/Berlin] Received data: Array
+(
+    [date] => 2025-04-25
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[25-Apr-2025 09:15:16 Europe/Berlin] Checking bookings for:
+[25-Apr-2025 09:15:16 Europe/Berlin] Date: 2025-04-25
+[25-Apr-2025 09:15:16 Europe/Berlin] Location: kothrud
+[25-Apr-2025 09:15:16 Europe/Berlin] Turf: dragon_ball
+[25-Apr-2025 09:15:16 Europe/Berlin] Found booked slots: Array
+(
+    [0] => 13:00:00
+)
+
+[25-Apr-2025 09:15:21 Europe/Berlin] 
+=== New Booking Request ===
+[25-Apr-2025 09:15:21 Europe/Berlin] Time: 2025-04-25 09:15:21
+[25-Apr-2025 09:15:21 Europe/Berlin] POST data: Array
+(
+    [booking_date] => 2025-04-25
+    [selected_slots] => ["14:00:00"]
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[25-Apr-2025 09:15:21 Europe/Berlin] Session data: Array
+(
+    [user_id] => 2
+    [username] => Parth Shinde
+    [loggedin] => 1
+    [role] => user
+)
+
+[25-Apr-2025 09:15:21 Europe/Berlin] Preparing to insert booking: User=2, Date=2025-04-25, Time=14:00:00
+[25-Apr-2025 09:15:21 Europe/Berlin] Successfully inserted booking. Insert ID: 2
+[25-Apr-2025 09:15:21 Europe/Berlin] All bookings inserted successfully, transaction committed
+[25-Apr-2025 09:15:21 Europe/Berlin] 
+=== Checking Booked Slots ===
+[25-Apr-2025 09:15:21 Europe/Berlin] Time: 2025-04-25 09:15:21
+[25-Apr-2025 09:15:21 Europe/Berlin] Received data: Array
+(
+    [date] => 2025-04-25
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[25-Apr-2025 09:15:21 Europe/Berlin] Checking bookings for:
+[25-Apr-2025 09:15:21 Europe/Berlin] Date: 2025-04-25
+[25-Apr-2025 09:15:21 Europe/Berlin] Location: kothrud
+[25-Apr-2025 09:15:21 Europe/Berlin] Turf: dragon_ball
+[25-Apr-2025 09:15:21 Europe/Berlin] Found booked slots: Array
+(
+    [0] => 13:00:00
+    [1] => 14:00:00
+)
+
+[25-Apr-2025 12:45:22 Asia/Kolkata] Booking page - Session ID: ulnfs3rnn493f0b0tm1i7k2nuf
+[25-Apr-2025 12:45:22 Asia/Kolkata] Booking page - Session status: 2
+[25-Apr-2025 12:45:22 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 2
+    [username] => Parth Shinde
+    [loggedin] => 1
+    [role] => user
+)
+
+[25-Apr-2025 12:45:23 Asia/Kolkata] User ID in session: 2
+[25-Apr-2025 12:45:23 Asia/Kolkata] Username in session: Parth Shinde
+[25-Apr-2025 12:45:23 Asia/Kolkata] Logged in status: true
+[25-Apr-2025 12:45:23 Asia/Kolkata] Current date: 2025-04-25
+[25-Apr-2025 12:45:23 Asia/Kolkata] Current time: 12:45:23
+[25-Apr-2025 12:45:23 Asia/Kolkata] Booked slots: Array
+(
+    [2025-04-25] => Array
+        (
+            [0] => 13:00:00
+            [1] => 14:00:00
+        )
+
+    [2025-04-26] => Array
+        (
+        )
+
+    [2025-04-27] => Array
+        (
+        )
+
+    [2025-04-28] => Array
+        (
+        )
+
+    [2025-04-29] => Array
+        (
+        )
+
+    [2025-04-30] => Array
+        (
+        )
+
+    [2025-05-01] => Array
+        (
+        )
+
+)
+
+[25-Apr-2025 12:45:23 Asia/Kolkata] All bookings in database:
+[25-Apr-2025 12:45:23 Asia/Kolkata] Array
+(
+    [id] => 1
+    [user_id] => 2
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 13:00:00
+    [created_at] => 2025-04-25 12:01:46
+)
+
+[25-Apr-2025 12:45:23 Asia/Kolkata] Array
+(
+    [id] => 2
+    [user_id] => 2
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 14:00:00
+    [created_at] => 2025-04-25 12:45:21
+)
+
+[25-Apr-2025 12:45:23 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[25-Apr-2025 12:45:23 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[25-Apr-2025 12:45:23 Asia/Kolkata] Non-POST request received
+[25-Apr-2025 12:49:50 Asia/Kolkata] Booking page - Session ID: h8sb8t4gufd7gq6p80qohuvpfs
+[25-Apr-2025 12:49:50 Asia/Kolkata] Booking page - Session status: 2
+[25-Apr-2025 12:49:50 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 2
+    [username] => Parth Shinde
+    [loggedin] => 1
+    [role] => user
+)
+
+[25-Apr-2025 12:49:50 Asia/Kolkata] User ID in session: 2
+[25-Apr-2025 12:49:50 Asia/Kolkata] Username in session: Parth Shinde
+[25-Apr-2025 12:49:50 Asia/Kolkata] Logged in status: true
+[25-Apr-2025 12:49:50 Asia/Kolkata] Current date: 2025-04-25
+[25-Apr-2025 12:49:50 Asia/Kolkata] Current time: 12:49:50
+[25-Apr-2025 12:49:50 Asia/Kolkata] Booked slots: Array
+(
+    [2025-04-25] => Array
+        (
+            [0] => 13:00:00
+            [1] => 14:00:00
+        )
+
+    [2025-04-26] => Array
+        (
+        )
+
+    [2025-04-27] => Array
+        (
+        )
+
+    [2025-04-28] => Array
+        (
+        )
+
+    [2025-04-29] => Array
+        (
+        )
+
+    [2025-04-30] => Array
+        (
+        )
+
+    [2025-05-01] => Array
+        (
+        )
+
+)
+
+[25-Apr-2025 12:49:50 Asia/Kolkata] All bookings in database:
+[25-Apr-2025 12:49:50 Asia/Kolkata] Array
+(
+    [id] => 1
+    [user_id] => 2
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 13:00:00
+    [created_at] => 2025-04-25 12:01:46
+)
+
+[25-Apr-2025 12:49:50 Asia/Kolkata] Array
+(
+    [id] => 2
+    [user_id] => 2
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 14:00:00
+    [created_at] => 2025-04-25 12:45:21
+)
+
+[25-Apr-2025 12:49:50 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[25-Apr-2025 12:49:50 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[25-Apr-2025 12:49:50 Asia/Kolkata] Non-POST request received
+[25-Apr-2025 09:19:56 Europe/Berlin] 
+=== Checking Booked Slots ===
+[25-Apr-2025 09:19:56 Europe/Berlin] Time: 2025-04-25 09:19:56
+[25-Apr-2025 09:19:56 Europe/Berlin] Received data: Array
+(
+    [date] => 2025-04-25
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[25-Apr-2025 09:19:56 Europe/Berlin] Checking bookings for:
+[25-Apr-2025 09:19:56 Europe/Berlin] Date: 2025-04-25
+[25-Apr-2025 09:19:56 Europe/Berlin] Location: kothrud
+[25-Apr-2025 09:19:56 Europe/Berlin] Turf: dragon_ball
+[25-Apr-2025 09:19:56 Europe/Berlin] Found booked slots: Array
+(
+    [0] => 13:00:00
+    [1] => 14:00:00
+)
+
+[25-Apr-2025 09:19:59 Europe/Berlin] 
+=== New Booking Request ===
+[25-Apr-2025 09:19:59 Europe/Berlin] Time: 2025-04-25 09:19:59
+[25-Apr-2025 09:19:59 Europe/Berlin] POST data: Array
+(
+    [booking_date] => 2025-04-25
+    [selected_slots] => ["15:00:00"]
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[25-Apr-2025 09:19:59 Europe/Berlin] Session data: Array
+(
+    [user_id] => 2
+    [username] => Parth Shinde
+    [loggedin] => 1
+    [role] => user
+)
+
+[25-Apr-2025 09:19:59 Europe/Berlin] Preparing to insert booking: User=2, Date=2025-04-25, Time=15:00:00
+[25-Apr-2025 09:19:59 Europe/Berlin] Successfully inserted booking. Insert ID: 3
+[25-Apr-2025 09:19:59 Europe/Berlin] All bookings inserted successfully, transaction committed
+[25-Apr-2025 09:19:59 Europe/Berlin] 
+=== Checking Booked Slots ===
+[25-Apr-2025 09:19:59 Europe/Berlin] Time: 2025-04-25 09:19:59
+[25-Apr-2025 09:19:59 Europe/Berlin] Received data: Array
+(
+    [date] => 2025-04-25
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[25-Apr-2025 09:19:59 Europe/Berlin] Checking bookings for:
+[25-Apr-2025 09:19:59 Europe/Berlin] Date: 2025-04-25
+[25-Apr-2025 09:19:59 Europe/Berlin] Location: kothrud
+[25-Apr-2025 09:19:59 Europe/Berlin] Turf: dragon_ball
+[25-Apr-2025 09:19:59 Europe/Berlin] Found booked slots: Array
+(
+    [0] => 13:00:00
+    [1] => 14:00:00
+    [2] => 15:00:00
+)
+
+[25-Apr-2025 09:20:10 Europe/Berlin] 
+=== New Booking Request ===
+[25-Apr-2025 09:20:10 Europe/Berlin] Time: 2025-04-25 09:20:10
+[25-Apr-2025 09:20:10 Europe/Berlin] POST data: Array
+(
+    [booking_date] => 2025-04-25
+    [selected_slots] => ["16:00:00"]
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[25-Apr-2025 09:20:10 Europe/Berlin] Session data: Array
+(
+    [user_id] => 2
+    [username] => Parth Shinde
+    [loggedin] => 1
+    [role] => user
+)
+
+[25-Apr-2025 09:20:10 Europe/Berlin] Preparing to insert booking: User=2, Date=2025-04-25, Time=16:00:00
+[25-Apr-2025 09:20:10 Europe/Berlin] Successfully inserted booking. Insert ID: 4
+[25-Apr-2025 09:20:10 Europe/Berlin] All bookings inserted successfully, transaction committed
+[25-Apr-2025 09:20:10 Europe/Berlin] 
+=== Checking Booked Slots ===
+[25-Apr-2025 09:20:10 Europe/Berlin] Time: 2025-04-25 09:20:10
+[25-Apr-2025 09:20:10 Europe/Berlin] Received data: Array
+(
+    [date] => 2025-04-25
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[25-Apr-2025 09:20:10 Europe/Berlin] Checking bookings for:
+[25-Apr-2025 09:20:10 Europe/Berlin] Date: 2025-04-25
+[25-Apr-2025 09:20:10 Europe/Berlin] Location: kothrud
+[25-Apr-2025 09:20:10 Europe/Berlin] Turf: dragon_ball
+[25-Apr-2025 09:20:10 Europe/Berlin] Found booked slots: Array
+(
+    [0] => 13:00:00
+    [1] => 14:00:00
+    [2] => 15:00:00
+    [3] => 16:00:00
+)
+
+[25-Apr-2025 12:50:12 Asia/Kolkata] Booking page - Session ID: h8sb8t4gufd7gq6p80qohuvpfs
+[25-Apr-2025 12:50:12 Asia/Kolkata] Booking page - Session status: 2
+[25-Apr-2025 12:50:12 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 2
+    [username] => Parth Shinde
+    [loggedin] => 1
+    [role] => user
+)
+
+[25-Apr-2025 12:50:12 Asia/Kolkata] User ID in session: 2
+[25-Apr-2025 12:50:12 Asia/Kolkata] Username in session: Parth Shinde
+[25-Apr-2025 12:50:12 Asia/Kolkata] Logged in status: true
+[25-Apr-2025 12:50:12 Asia/Kolkata] Current date: 2025-04-25
+[25-Apr-2025 12:50:12 Asia/Kolkata] Current time: 12:50:12
+[25-Apr-2025 12:50:12 Asia/Kolkata] Booked slots: Array
+(
+    [2025-04-25] => Array
+        (
+            [0] => 13:00:00
+            [1] => 14:00:00
+            [2] => 15:00:00
+            [3] => 16:00:00
+        )
+
+    [2025-04-26] => Array
+        (
+        )
+
+    [2025-04-27] => Array
+        (
+        )
+
+    [2025-04-28] => Array
+        (
+        )
+
+    [2025-04-29] => Array
+        (
+        )
+
+    [2025-04-30] => Array
+        (
+        )
+
+    [2025-05-01] => Array
+        (
+        )
+
+)
+
+[25-Apr-2025 12:50:12 Asia/Kolkata] All bookings in database:
+[25-Apr-2025 12:50:12 Asia/Kolkata] Array
+(
+    [id] => 1
+    [user_id] => 2
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 13:00:00
+    [created_at] => 2025-04-25 12:01:46
+)
+
+[25-Apr-2025 12:50:12 Asia/Kolkata] Array
+(
+    [id] => 2
+    [user_id] => 2
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 14:00:00
+    [created_at] => 2025-04-25 12:45:21
+)
+
+[25-Apr-2025 12:50:12 Asia/Kolkata] Array
+(
+    [id] => 3
+    [user_id] => 2
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 15:00:00
+    [created_at] => 2025-04-25 12:49:59
+)
+
+[25-Apr-2025 12:50:12 Asia/Kolkata] Array
+(
+    [id] => 4
+    [user_id] => 2
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-25
+    [booking_time] => 16:00:00
+    [created_at] => 2025-04-25 12:50:10
+)
+
+[25-Apr-2025 12:50:12 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[25-Apr-2025 12:50:12 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[25-Apr-2025 12:50:12 Asia/Kolkata] Non-POST request received
+[26-Apr-2025 09:57:52 Asia/Kolkata] Booking page - Session ID: noqp0kt43o9d6j5vj0j1036gef
+[26-Apr-2025 09:57:52 Asia/Kolkata] Booking page - Session status: 2
+[26-Apr-2025 09:57:52 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 2
+    [username] => Parth Shinde
+    [loggedin] => 1
+    [role] => user
+)
+
+[26-Apr-2025 09:57:52 Asia/Kolkata] User ID in session: 2
+[26-Apr-2025 09:57:52 Asia/Kolkata] Username in session: Parth Shinde
+[26-Apr-2025 09:57:52 Asia/Kolkata] Logged in status: true
+[26-Apr-2025 09:57:52 Asia/Kolkata] Current date: 2025-04-26
+[26-Apr-2025 09:57:52 Asia/Kolkata] Current time: 09:57:52
+[26-Apr-2025 09:57:52 Asia/Kolkata] Booked slots: Array
+(
+    [2025-04-26] => Array
+        (
+        )
+
+    [2025-04-27] => Array
+        (
+        )
+
+    [2025-04-28] => Array
+        (
+        )
+
+    [2025-04-29] => Array
+        (
+        )
+
+    [2025-04-30] => Array
+        (
+        )
+
+    [2025-05-01] => Array
+        (
+        )
+
+    [2025-05-02] => Array
+        (
+        )
+
+)
+
+[26-Apr-2025 09:57:52 Asia/Kolkata] All bookings in database:
+[26-Apr-2025 09:57:52 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[26-Apr-2025 09:57:52 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[26-Apr-2025 09:57:52 Asia/Kolkata] Non-POST request received
+[26-Apr-2025 06:28:10 Europe/Berlin] 
+=== Checking Booked Slots ===
+[26-Apr-2025 06:28:10 Europe/Berlin] Time: 2025-04-26 06:28:10
+[26-Apr-2025 06:28:10 Europe/Berlin] Received data: Array
+(
+    [date] => 2025-04-26
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[26-Apr-2025 06:28:10 Europe/Berlin] Checking bookings for:
+[26-Apr-2025 06:28:10 Europe/Berlin] Date: 2025-04-26
+[26-Apr-2025 06:28:10 Europe/Berlin] Location: kothrud
+[26-Apr-2025 06:28:10 Europe/Berlin] Turf: dragon_ball
+[26-Apr-2025 06:28:10 Europe/Berlin] Found booked slots: Array
+(
+)
+
+[26-Apr-2025 06:28:42 Europe/Berlin] 
+=== New Booking Request ===
+[26-Apr-2025 06:28:42 Europe/Berlin] Time: 2025-04-26 06:28:42
+[26-Apr-2025 06:28:42 Europe/Berlin] POST data: Array
+(
+    [booking_date] => 2025-04-26
+    [selected_slots] => ["10:00:00"]
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[26-Apr-2025 06:28:42 Europe/Berlin] Session data: Array
+(
+    [user_id] => 2
+    [username] => Parth Shinde
+    [loggedin] => 1
+    [role] => user
+)
+
+[26-Apr-2025 06:28:42 Europe/Berlin] Preparing to insert booking: User=2, Date=2025-04-26, Time=10:00:00
+[26-Apr-2025 06:28:42 Europe/Berlin] Successfully inserted booking. Insert ID: 11
+[26-Apr-2025 06:28:42 Europe/Berlin] All bookings inserted successfully, transaction committed
+[26-Apr-2025 06:28:42 Europe/Berlin] 
+=== Checking Booked Slots ===
+[26-Apr-2025 06:28:42 Europe/Berlin] Time: 2025-04-26 06:28:42
+[26-Apr-2025 06:28:42 Europe/Berlin] Received data: Array
+(
+    [date] => 2025-04-26
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[26-Apr-2025 06:28:42 Europe/Berlin] Checking bookings for:
+[26-Apr-2025 06:28:42 Europe/Berlin] Date: 2025-04-26
+[26-Apr-2025 06:28:42 Europe/Berlin] Location: kothrud
+[26-Apr-2025 06:28:42 Europe/Berlin] Turf: dragon_ball
+[26-Apr-2025 06:28:42 Europe/Berlin] Found booked slots: Array
+(
+    [0] => 10:00:00
+)
+
+[26-Apr-2025 09:58:49 Asia/Kolkata] Booking page - Session ID: noqp0kt43o9d6j5vj0j1036gef
+[26-Apr-2025 09:58:49 Asia/Kolkata] Booking page - Session status: 2
+[26-Apr-2025 09:58:49 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 2
+    [username] => Parth Shinde
+    [loggedin] => 1
+    [role] => user
+)
+
+[26-Apr-2025 09:58:49 Asia/Kolkata] User ID in session: 2
+[26-Apr-2025 09:58:49 Asia/Kolkata] Username in session: Parth Shinde
+[26-Apr-2025 09:58:49 Asia/Kolkata] Logged in status: true
+[26-Apr-2025 09:58:49 Asia/Kolkata] Current date: 2025-04-26
+[26-Apr-2025 09:58:49 Asia/Kolkata] Current time: 09:58:49
+[26-Apr-2025 09:58:49 Asia/Kolkata] Booked slots: Array
+(
+    [2025-04-26] => Array
+        (
+            [0] => 10:00:00
+        )
+
+    [2025-04-27] => Array
+        (
+        )
+
+    [2025-04-28] => Array
+        (
+        )
+
+    [2025-04-29] => Array
+        (
+        )
+
+    [2025-04-30] => Array
+        (
+        )
+
+    [2025-05-01] => Array
+        (
+        )
+
+    [2025-05-02] => Array
+        (
+        )
+
+)
+
+[26-Apr-2025 09:58:49 Asia/Kolkata] All bookings in database:
+[26-Apr-2025 09:58:49 Asia/Kolkata] Array
+(
+    [id] => 11
+    [user_id] => 2
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-26
+    [booking_time] => 10:00:00
+    [created_at] => 2025-04-26 09:58:42
+)
+
+[26-Apr-2025 09:58:49 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[26-Apr-2025 09:58:49 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[26-Apr-2025 09:58:49 Asia/Kolkata] Non-POST request received
+[26-Apr-2025 06:29:14 Europe/Berlin] 
+=== Checking Booked Slots ===
+[26-Apr-2025 06:29:14 Europe/Berlin] Time: 2025-04-26 06:29:14
+[26-Apr-2025 06:29:14 Europe/Berlin] Received data: Array
+(
+    [date] => 2025-04-26
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[26-Apr-2025 06:29:14 Europe/Berlin] Checking bookings for:
+[26-Apr-2025 06:29:14 Europe/Berlin] Date: 2025-04-26
+[26-Apr-2025 06:29:14 Europe/Berlin] Location: kothrud
+[26-Apr-2025 06:29:14 Europe/Berlin] Turf: dragon_ball
+[26-Apr-2025 06:29:14 Europe/Berlin] Found booked slots: Array
+(
+    [0] => 10:00:00
+)
+
+[26-Apr-2025 06:29:25 Europe/Berlin] 
+=== New Booking Request ===
+[26-Apr-2025 06:29:25 Europe/Berlin] Time: 2025-04-26 06:29:25
+[26-Apr-2025 06:29:25 Europe/Berlin] POST data: Array
+(
+    [booking_date] => 2025-04-26
+    [selected_slots] => ["11:00:00"]
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[26-Apr-2025 06:29:25 Europe/Berlin] Session data: Array
+(
+    [user_id] => 2
+    [username] => Parth Shinde
+    [loggedin] => 1
+    [role] => user
+)
+
+[26-Apr-2025 06:29:25 Europe/Berlin] Preparing to insert booking: User=2, Date=2025-04-26, Time=11:00:00
+[26-Apr-2025 06:29:25 Europe/Berlin] Successfully inserted booking. Insert ID: 12
+[26-Apr-2025 06:29:25 Europe/Berlin] All bookings inserted successfully, transaction committed
+[26-Apr-2025 06:29:25 Europe/Berlin] 
+=== Checking Booked Slots ===
+[26-Apr-2025 06:29:25 Europe/Berlin] Time: 2025-04-26 06:29:25
+[26-Apr-2025 06:29:25 Europe/Berlin] Received data: Array
+(
+    [date] => 2025-04-26
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[26-Apr-2025 06:29:25 Europe/Berlin] Checking bookings for:
+[26-Apr-2025 06:29:25 Europe/Berlin] Date: 2025-04-26
+[26-Apr-2025 06:29:25 Europe/Berlin] Location: kothrud
+[26-Apr-2025 06:29:25 Europe/Berlin] Turf: dragon_ball
+[26-Apr-2025 06:29:25 Europe/Berlin] Found booked slots: Array
+(
+    [0] => 10:00:00
+    [1] => 11:00:00
+)
+
+[26-Apr-2025 10:01:06 Asia/Kolkata] Booking page - Session ID: noqp0kt43o9d6j5vj0j1036gef
+[26-Apr-2025 10:01:06 Asia/Kolkata] Booking page - Session status: 2
+[26-Apr-2025 10:01:06 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 2
+    [username] => Parth Shinde
+    [loggedin] => 1
+    [role] => user
+)
+
+[26-Apr-2025 10:01:06 Asia/Kolkata] User ID in session: 2
+[26-Apr-2025 10:01:06 Asia/Kolkata] Username in session: Parth Shinde
+[26-Apr-2025 10:01:06 Asia/Kolkata] Logged in status: true
+[26-Apr-2025 10:01:06 Asia/Kolkata] Current date: 2025-04-26
+[26-Apr-2025 10:01:06 Asia/Kolkata] Current time: 10:01:06
+[26-Apr-2025 10:01:06 Asia/Kolkata] Booked slots: Array
+(
+    [2025-04-26] => Array
+        (
+            [0] => 10:00:00
+            [1] => 11:00:00
+        )
+
+    [2025-04-27] => Array
+        (
+        )
+
+    [2025-04-28] => Array
+        (
+        )
+
+    [2025-04-29] => Array
+        (
+        )
+
+    [2025-04-30] => Array
+        (
+        )
+
+    [2025-05-01] => Array
+        (
+        )
+
+    [2025-05-02] => Array
+        (
+        )
+
+)
+
+[26-Apr-2025 10:01:06 Asia/Kolkata] All bookings in database:
+[26-Apr-2025 10:01:06 Asia/Kolkata] Array
+(
+    [id] => 11
+    [user_id] => 2
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-26
+    [booking_time] => 10:00:00
+    [created_at] => 2025-04-26 09:58:42
+)
+
+[26-Apr-2025 10:01:06 Asia/Kolkata] Array
+(
+    [id] => 12
+    [user_id] => 2
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-04-26
+    [booking_time] => 11:00:00
+    [created_at] => 2025-04-26 09:59:25
+)
+
+[26-Apr-2025 10:01:06 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[26-Apr-2025 10:01:06 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[26-Apr-2025 10:01:06 Asia/Kolkata] Non-POST request received
+[01-May-2025 14:32:27 Asia/Kolkata] Booking page - Session ID: trklmbulmtu50ef5gi1npi5gdm
+[01-May-2025 14:32:27 Asia/Kolkata] Booking page - Session status: 2
+[01-May-2025 14:32:27 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 3
+    [username] => admin@18
+    [is_admin] => 
+    [loggedin] => 1
+    [role] => user
+)
+
+[01-May-2025 14:32:27 Asia/Kolkata] User ID in session: 3
+[01-May-2025 14:32:27 Asia/Kolkata] Username in session: admin@18
+[01-May-2025 14:32:27 Asia/Kolkata] Logged in status: true
+[01-May-2025 14:32:27 Asia/Kolkata] Current date: 2025-05-01
+[01-May-2025 14:32:27 Asia/Kolkata] Current time: 14:32:27
+[01-May-2025 14:32:27 Asia/Kolkata] Booked slots: Array
+(
+    [2025-05-01] => Array
+        (
+        )
+
+    [2025-05-02] => Array
+        (
+        )
+
+    [2025-05-03] => Array
+        (
+        )
+
+    [2025-05-04] => Array
+        (
+        )
+
+    [2025-05-05] => Array
+        (
+        )
+
+    [2025-05-06] => Array
+        (
+        )
+
+    [2025-05-07] => Array
+        (
+        )
+
+)
+
+[01-May-2025 14:32:27 Asia/Kolkata] All bookings in database:
+[01-May-2025 14:32:27 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[01-May-2025 14:32:27 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[01-May-2025 14:32:27 Asia/Kolkata] Non-POST request received
+[01-May-2025 14:37:42 Asia/Kolkata] Booking page - Session ID: rh7egjh4rrg0kng41b4h3824aa
+[01-May-2025 14:37:42 Asia/Kolkata] Booking page - Session status: 2
+[01-May-2025 14:37:42 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 5
+    [username] => Turf_Parth
+    [is_admin] => 
+    [loggedin] => 1
+    [role] => user
+)
+
+[01-May-2025 14:37:42 Asia/Kolkata] User ID in session: 5
+[01-May-2025 14:37:42 Asia/Kolkata] Username in session: Turf_Parth
+[01-May-2025 14:37:42 Asia/Kolkata] Logged in status: true
+[01-May-2025 14:37:42 Asia/Kolkata] Current date: 2025-05-01
+[01-May-2025 14:37:42 Asia/Kolkata] Current time: 14:37:42
+[01-May-2025 14:37:42 Asia/Kolkata] Booked slots: Array
+(
+    [2025-05-01] => Array
+        (
+        )
+
+    [2025-05-02] => Array
+        (
+        )
+
+    [2025-05-03] => Array
+        (
+        )
+
+    [2025-05-04] => Array
+        (
+        )
+
+    [2025-05-05] => Array
+        (
+        )
+
+    [2025-05-06] => Array
+        (
+        )
+
+    [2025-05-07] => Array
+        (
+        )
+
+)
+
+[01-May-2025 14:37:42 Asia/Kolkata] All bookings in database:
+[01-May-2025 14:37:42 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[01-May-2025 14:37:42 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[01-May-2025 14:37:42 Asia/Kolkata] Non-POST request received
+[01-May-2025 11:07:51 Europe/Berlin] 
+=== Checking Booked Slots ===
+[01-May-2025 11:07:51 Europe/Berlin] Time: 2025-05-01 11:07:51
+[01-May-2025 11:07:51 Europe/Berlin] Received data: Array
+(
+    [date] => 2025-05-01
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[01-May-2025 11:07:51 Europe/Berlin] Checking bookings for:
+[01-May-2025 11:07:51 Europe/Berlin] Date: 2025-05-01
+[01-May-2025 11:07:51 Europe/Berlin] Location: kothrud
+[01-May-2025 11:07:51 Europe/Berlin] Turf: dragon_ball
+[01-May-2025 11:07:51 Europe/Berlin] Found booked slots: Array
+(
+)
+
+[01-May-2025 11:07:51 Europe/Berlin] 
+=== Checking Booked Slots ===
+[01-May-2025 11:07:51 Europe/Berlin] Time: 2025-05-01 11:07:51
+[01-May-2025 11:07:51 Europe/Berlin] Received data: Array
+(
+    [date] => 2025-05-01
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[01-May-2025 11:07:51 Europe/Berlin] Checking bookings for:
+[01-May-2025 11:07:51 Europe/Berlin] Date: 2025-05-01
+[01-May-2025 11:07:51 Europe/Berlin] Location: kothrud
+[01-May-2025 11:07:51 Europe/Berlin] Turf: dragon_ball
+[01-May-2025 11:07:51 Europe/Berlin] Found booked slots: Array
+(
+)
+
+[01-May-2025 11:08:02 Europe/Berlin] 
+=== New Booking Request ===
+[01-May-2025 11:08:02 Europe/Berlin] Time: 2025-05-01 11:08:02
+[01-May-2025 11:08:02 Europe/Berlin] POST data: Array
+(
+    [booking_date] => 2025-05-01
+    [selected_slots] => ["15:00:00"]
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[01-May-2025 11:08:02 Europe/Berlin] Session data: Array
+(
+    [user_id] => 5
+    [username] => Turf_Parth
+    [is_admin] => 
+    [loggedin] => 1
+    [role] => user
+)
+
+[01-May-2025 11:08:02 Europe/Berlin] Preparing to insert booking: User=5, Date=2025-05-01, Time=15:00:00
+[01-May-2025 11:08:02 Europe/Berlin] Successfully inserted booking. Insert ID: 11
+[01-May-2025 11:08:02 Europe/Berlin] All bookings inserted successfully, transaction committed
+[01-May-2025 11:08:02 Europe/Berlin] 
+=== Checking Booked Slots ===
+[01-May-2025 11:08:02 Europe/Berlin] Time: 2025-05-01 11:08:02
+[01-May-2025 11:08:02 Europe/Berlin] Received data: Array
+(
+    [date] => 2025-05-01
+    [location] => kothrud
+    [turf] => dragon_ball
+)
+
+[01-May-2025 11:08:02 Europe/Berlin] Checking bookings for:
+[01-May-2025 11:08:02 Europe/Berlin] Date: 2025-05-01
+[01-May-2025 11:08:02 Europe/Berlin] Location: kothrud
+[01-May-2025 11:08:02 Europe/Berlin] Turf: dragon_ball
+[01-May-2025 11:08:02 Europe/Berlin] Found booked slots: Array
+(
+    [0] => 15:00:00
+)
+
+[01-May-2025 14:38:04 Asia/Kolkata] Booking page - Session ID: rh7egjh4rrg0kng41b4h3824aa
+[01-May-2025 14:38:04 Asia/Kolkata] Booking page - Session status: 2
+[01-May-2025 14:38:04 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 5
+    [username] => Turf_Parth
+    [is_admin] => 
+    [loggedin] => 1
+    [role] => user
+)
+
+[01-May-2025 14:38:04 Asia/Kolkata] User ID in session: 5
+[01-May-2025 14:38:04 Asia/Kolkata] Username in session: Turf_Parth
+[01-May-2025 14:38:04 Asia/Kolkata] Logged in status: true
+[01-May-2025 14:38:04 Asia/Kolkata] Current date: 2025-05-01
+[01-May-2025 14:38:04 Asia/Kolkata] Current time: 14:38:04
+[01-May-2025 14:38:04 Asia/Kolkata] Booked slots: Array
+(
+    [2025-05-01] => Array
+        (
+            [0] => 15:00:00
+        )
+
+    [2025-05-02] => Array
+        (
+        )
+
+    [2025-05-03] => Array
+        (
+        )
+
+    [2025-05-04] => Array
+        (
+        )
+
+    [2025-05-05] => Array
+        (
+        )
+
+    [2025-05-06] => Array
+        (
+        )
+
+    [2025-05-07] => Array
+        (
+        )
+
+)
+
+[01-May-2025 14:38:04 Asia/Kolkata] All bookings in database:
+[01-May-2025 14:38:04 Asia/Kolkata] Array
+(
+    [id] => 11
+    [user_id] => 5
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-05-01
+    [booking_time] => 15:00:00
+    [created_at] => 2025-05-01 14:38:02
+)
+
+[01-May-2025 14:38:04 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[01-May-2025 14:38:04 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[01-May-2025 14:38:04 Asia/Kolkata] Non-POST request received
+[01-May-2025 11:14:00 Europe/Berlin] 
+=== Checking Booked Slots ===
+[01-May-2025 11:14:00 Europe/Berlin] Time: 2025-05-01 11:14:00
+[01-May-2025 11:14:00 Europe/Berlin] Received data: 
+[01-May-2025 11:14:00 Europe/Berlin] Missing required fields
+[01-May-2025 14:53:04 Asia/Kolkata] Booking page - Session ID: 6be0dr8p75oh9dn4sf53nbve18
+[01-May-2025 14:53:04 Asia/Kolkata] Booking page - Session status: 2
+[01-May-2025 14:53:04 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 6
+    [username] => testuser
+    [loggedin] => 1
+    [role] => user
+)
+
+[01-May-2025 14:53:04 Asia/Kolkata] User ID in session: 6
+[01-May-2025 14:53:04 Asia/Kolkata] Username in session: testuser
+[01-May-2025 14:53:04 Asia/Kolkata] Logged in status: true
+[01-May-2025 14:53:04 Asia/Kolkata] Current date: 2025-05-01
+[01-May-2025 14:53:04 Asia/Kolkata] Current time: 14:53:04
+[01-May-2025 14:53:04 Asia/Kolkata] Booked slots: Array
+(
+    [2025-05-01] => Array
+        (
+            [0] => 15:00:00
+        )
+
+    [2025-05-02] => Array
+        (
+        )
+
+    [2025-05-03] => Array
+        (
+        )
+
+    [2025-05-04] => Array
+        (
+        )
+
+    [2025-05-05] => Array
+        (
+        )
+
+    [2025-05-06] => Array
+        (
+        )
+
+    [2025-05-07] => Array
+        (
+        )
+
+)
+
+[01-May-2025 14:53:04 Asia/Kolkata] All bookings in database:
+[01-May-2025 14:53:04 Asia/Kolkata] Array
+(
+    [id] => 11
+    [user_id] => 5
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-05-01
+    [booking_time] => 15:00:00
+    [created_at] => 2025-05-01 14:38:02
+)
+
+[01-May-2025 14:53:04 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[01-May-2025 14:53:04 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[01-May-2025 14:53:04 Asia/Kolkata] Non-POST request received
+[01-May-2025 14:56:12 Asia/Kolkata] Booking page - Session ID: k8pd3nv9aio4sk4bdfahd0oq9j
+[01-May-2025 14:56:12 Asia/Kolkata] Booking page - Session status: 2
+[01-May-2025 14:56:12 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [user_id] => 3
+    [username] => test123
+    [is_admin] => 
+    [loggedin] => 1
+    [role] => user
+)
+
+[01-May-2025 14:56:12 Asia/Kolkata] User ID in session: 3
+[01-May-2025 14:56:12 Asia/Kolkata] Username in session: test123
+[01-May-2025 14:56:12 Asia/Kolkata] Logged in status: true
+[01-May-2025 14:56:12 Asia/Kolkata] Current date: 2025-05-01
+[01-May-2025 14:56:12 Asia/Kolkata] Current time: 14:56:12
+[01-May-2025 14:56:12 Asia/Kolkata] Booked slots: Array
+(
+    [2025-05-01] => Array
+        (
+            [0] => 15:00:00
+        )
+
+    [2025-05-02] => Array
+        (
+        )
+
+    [2025-05-03] => Array
+        (
+        )
+
+    [2025-05-04] => Array
+        (
+        )
+
+    [2025-05-05] => Array
+        (
+        )
+
+    [2025-05-06] => Array
+        (
+        )
+
+    [2025-05-07] => Array
+        (
+        )
+
+)
+
+[01-May-2025 14:56:12 Asia/Kolkata] All bookings in database:
+[01-May-2025 14:56:12 Asia/Kolkata] Array
+(
+    [id] => 11
+    [user_id] => 5
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-05-01
+    [booking_time] => 15:00:00
+    [created_at] => 2025-05-01 14:38:02
+)
+
+[01-May-2025 14:56:12 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[01-May-2025 14:56:12 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[01-May-2025 14:56:12 Asia/Kolkata] Non-POST request received
+[01-May-2025 15:02:40 Asia/Kolkata] Booking page - Session ID: k8pd3nv9aio4sk4bdfahd0oq9j
+[01-May-2025 15:02:40 Asia/Kolkata] Booking page - Session status: 2
+[01-May-2025 15:02:40 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [on_login_page] => 1
+    [user_id] => 4
+    [username] => Rohit_test
+    [loggedin] => 1
+    [role] => user
+)
+
+[01-May-2025 15:02:40 Asia/Kolkata] User ID in session: 4
+[01-May-2025 15:02:40 Asia/Kolkata] Username in session: Rohit_test
+[01-May-2025 15:02:40 Asia/Kolkata] Logged in status: true
+[01-May-2025 15:02:40 Asia/Kolkata] Current date: 2025-05-01
+[01-May-2025 15:02:40 Asia/Kolkata] Current time: 15:02:40
+[01-May-2025 15:02:40 Asia/Kolkata] Booked slots: Array
+(
+    [2025-05-01] => Array
+        (
+            [0] => 15:00:00
+        )
+
+    [2025-05-02] => Array
+        (
+        )
+
+    [2025-05-03] => Array
+        (
+        )
+
+    [2025-05-04] => Array
+        (
+        )
+
+    [2025-05-05] => Array
+        (
+        )
+
+    [2025-05-06] => Array
+        (
+        )
+
+    [2025-05-07] => Array
+        (
+        )
+
+)
+
+[01-May-2025 15:02:40 Asia/Kolkata] All bookings in database:
+[01-May-2025 15:02:40 Asia/Kolkata] Array
+(
+    [id] => 11
+    [user_id] => 5
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-05-01
+    [booking_time] => 15:00:00
+    [created_at] => 2025-05-01 14:38:02
+)
+
+[01-May-2025 15:02:40 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[01-May-2025 15:02:40 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[01-May-2025 15:02:40 Asia/Kolkata] Non-POST request received
+[01-May-2025 15:11:14 Asia/Kolkata] Booking page - Session ID: bragaluhc15dgv9ci580u0rqcm
+[01-May-2025 15:11:14 Asia/Kolkata] Booking page - Session status: 2
+[01-May-2025 15:11:14 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [registration_success] => Registration successful! Please login with your credentials.
+    [user_id] => 5
+    [username] => Rohit
+    [loggedin] => 1
+    [role] => user
+)
+
+[01-May-2025 15:11:14 Asia/Kolkata] User ID in session: 5
+[01-May-2025 15:11:14 Asia/Kolkata] Username in session: Rohit
+[01-May-2025 15:11:14 Asia/Kolkata] Logged in status: true
+[01-May-2025 15:11:14 Asia/Kolkata] Current date: 2025-05-01
+[01-May-2025 15:11:14 Asia/Kolkata] Current time: 15:11:14
+[01-May-2025 15:11:14 Asia/Kolkata] Booked slots: Array
+(
+    [2025-05-01] => Array
+        (
+            [0] => 15:00:00
+        )
+
+    [2025-05-02] => Array
+        (
+        )
+
+    [2025-05-03] => Array
+        (
+        )
+
+    [2025-05-04] => Array
+        (
+        )
+
+    [2025-05-05] => Array
+        (
+        )
+
+    [2025-05-06] => Array
+        (
+        )
+
+    [2025-05-07] => Array
+        (
+        )
+
+)
+
+[01-May-2025 15:11:14 Asia/Kolkata] All bookings in database:
+[01-May-2025 15:11:14 Asia/Kolkata] Array
+(
+    [id] => 11
+    [user_id] => 5
+    [location] => kothrud
+    [turf] => dragon_ball
+    [booking_date] => 2025-05-01
+    [booking_time] => 15:00:00
+    [created_at] => 2025-05-01 14:38:02
+)
+
+[01-May-2025 15:11:14 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[01-May-2025 15:11:14 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[01-May-2025 15:11:14 Asia/Kolkata] Non-POST request received
+[02-May-2025 14:54:18 Asia/Kolkata] Booking page - Session ID: tq5dft66iigpu60ou66m1u44d8
+[02-May-2025 14:54:18 Asia/Kolkata] Booking page - Session status: 2
+[02-May-2025 14:54:18 Asia/Kolkata] Booking page - Session contents: Array
+(
+    [registration_success] => Registration successful! Please login with your credentials.
+    [user_id] => 6
+    [username] => Parth1806
+    [loggedin] => 1
+    [role] => user
+)
+
+[02-May-2025 14:54:18 Asia/Kolkata] Attempting database connection with: host=localhost, user=root, db=login_system, port=3306
+[02-May-2025 14:54:18 Asia/Kolkata] Database connection successful
+[02-May-2025 14:54:18 Asia/Kolkata] Character set set to utf8mb4
+[02-May-2025 14:54:18 Asia/Kolkata] Database created/verified
+[02-May-2025 14:54:18 Asia/Kolkata] Database selected successfully
+[02-May-2025 14:54:18 Asia/Kolkata] Users table created/verified
+[02-May-2025 14:54:18 Asia/Kolkata] Users table structure:
+[02-May-2025 14:54:18 Asia/Kolkata] Column: id Type: int
+[02-May-2025 14:54:18 Asia/Kolkata] Column: username Type: varchar(50)
+[02-May-2025 14:54:18 Asia/Kolkata] Column: email Type: varchar(100)
+[02-May-2025 14:54:18 Asia/Kolkata] Column: password Type: varchar(255)
+[02-May-2025 14:54:18 Asia/Kolkata] Column: is_admin Type: tinyint(1)
+[02-May-2025 14:54:18 Asia/Kolkata] Column: created_at Type: timestamp
+[02-May-2025 14:54:18 Asia/Kolkata] User ID in session: 6
+[02-May-2025 14:54:18 Asia/Kolkata] Username in session: Parth1806
+[02-May-2025 14:54:18 Asia/Kolkata] Logged in status: true
+[02-May-2025 14:54:18 Asia/Kolkata] Current date: 2025-05-02
+[02-May-2025 14:54:18 Asia/Kolkata] Current time: 14:54:18
+[02-May-2025 14:54:18 Asia/Kolkata] Booked slots: Array
+(
+    [2025-05-02] => Array
+        (
+        )
+
+    [2025-05-03] => Array
+        (
+        )
+
+    [2025-05-04] => Array
+        (
+        )
+
+    [2025-05-05] => Array
+        (
+        )
+
+    [2025-05-06] => Array
+        (
+        )
+
+    [2025-05-07] => Array
+        (
+        )
+
+    [2025-05-08] => Array
+        (
+        )
+
+)
+
+[02-May-2025 14:54:18 Asia/Kolkata] All bookings in database:
+[02-May-2025 14:54:18 Asia/Kolkata] Locations data structure: Array
+(
+    [kothrud] => Array
+        (
+            [name] => Kothrud
+            [turfs] => Array
+                (
+                    [dragon_ball] => Dragon Ball
+                    [wolves] => Wolves
+                    [ufs] => UFS
+                )
+
+        )
+
+    [baner] => Array
+        (
+            [name] => Baner
+            [turfs] => Array
+                (
+                    [toronto_arena] => Toronto Arena
+                    [paris_sports] => Paris Sports
+                    [eagles_sports] => Eagles Sports
+                )
+
+        )
+
+    [viman_nagar] => Array
+        (
+            [name] => Viman Nagar
+            [turfs] => Array
+                (
+                    [viman_nagar_turf] => Viman Nagar Turf
+                    [sky_sports] => Sky Sports
+                    [arena_sports] => Arena Sports
+                )
+
+        )
+
+)
+
+[02-May-2025 14:54:18 Asia/Kolkata] JavaScript locations: {"kothrud":{"name":"Kothrud","turfs":{"dragon_ball":"Dragon Ball","wolves":"Wolves","ufs":"UFS"}},"baner":{"name":"Baner","turfs":{"toronto_arena":"Toronto Arena","paris_sports":"Paris Sports","eagles_sports":"Eagles Sports"}},"viman_nagar":{"name":"Viman Nagar","turfs":{"viman_nagar_turf":"Viman Nagar Turf","sky_sports":"Sky Sports","arena_sports":"Arena Sports"}}}
+[02-May-2025 14:54:18 Asia/Kolkata] Non-POST request received
