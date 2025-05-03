@@ -1042,7 +1042,7 @@ if (isset($_POST['generate_pdf'])) {
                 const currentHours = now.getHours();
                 const currentMinutes = now.getMinutes();
                 
-                // Compare times
+                // Compare times - disable if the slot time is less than or equal to current time
                 if (hours < currentHours || (hours === currentHours && minutes <= currentMinutes)) {
                     return true;
                 }
@@ -1068,6 +1068,7 @@ if (isset($_POST['generate_pdf'])) {
             return `${hours.toString().padStart(2, '0')}:${minutes}:00`;
         }
 
+        // Function to update time slots based on current time
         function updateTimeSlots() {
             const selectedDate = document.getElementById('bookingDate').value;
             const selectedLocation = document.getElementById('location').value;
@@ -1097,7 +1098,20 @@ if (isset($_POST['generate_pdf'])) {
                 }
             });
 
-            // Check for booked slots
+            // First disable slots based on current time
+            allSlots.forEach(slot => {
+                if (shouldDisableTimeSlot(slot.dataset.time, selectedDate)) {
+                    slot.classList.add('disabled');
+                    slot.style.backgroundColor = '#f5f5f5';
+                    slot.style.color = '#999';
+                    slot.style.cursor = 'not-allowed';
+                    if (slot.querySelector('.time-slot-price')) {
+                        slot.querySelector('.time-slot-price').style.color = '#999';
+                    }
+                }
+            });
+
+            // Then check for booked slots
             fetch('check_bookings.php', {
                 method: 'POST',
                 headers: {
@@ -1131,21 +1145,6 @@ if (isset($_POST['generate_pdf'])) {
                         }
                     }
                 });
-
-                // Disable slots based on current time
-                allSlots.forEach(slot => {
-                    if (!slot.classList.contains('booked') && !slot.classList.contains('selected')) {
-                        if (shouldDisableTimeSlot(slot.dataset.time, selectedDate)) {
-                            slot.classList.add('disabled');
-                            slot.style.backgroundColor = '#f5f5f5';
-                            slot.style.color = '#999';
-                            slot.style.cursor = 'not-allowed';
-                            if (slot.querySelector('.time-slot-price')) {
-                                slot.querySelector('.time-slot-price').style.color = '#999';
-                            }
-                        }
-                    }
-                });
             })
             .catch(error => {
                 console.error('Error checking booked slots:', error);
@@ -1154,6 +1153,9 @@ if (isset($_POST['generate_pdf'])) {
             // Update receipt
             updateReceipt();
         }
+
+        // Add interval to update time slots every minute
+        setInterval(updateTimeSlots, 60000);
 
         function updateReceipt() {
             const selectedSlots = Array.from(document.querySelectorAll('.time-slot.selected'));

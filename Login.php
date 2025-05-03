@@ -3,8 +3,23 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
+// Configure session settings
+ini_set('session.cookie_lifetime', 0); // Session cookie expires when browser closes
+ini_set('session.gc_maxlifetime', 3600); // Session data expires after 1 hour
+ini_set('session.use_only_cookies', 1); // Force sessions to only use cookies
+ini_set('session.cookie_httponly', 1); // Prevent JavaScript access to session cookie
+ini_set('session.cookie_secure', 0); // Set to 1 if using HTTPS
+
 // Start session if not already started
 if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
+// Clear any existing session data
+if (isset($_SESSION)) {
+    error_log("Clearing existing session data");
+    session_unset();
+    session_destroy();
     session_start();
 }
 
@@ -14,6 +29,7 @@ $_SESSION['on_login_page'] = true;
 // Debug session information
 error_log("Login page - Session ID: " . session_id());
 error_log("Login page - Session status: " . session_status());
+error_log("Login page - Session save path: " . session_save_path());
 if (isset($_SESSION)) {
     error_log("Login page - Session contents: " . print_r($_SESSION, true));
 }
@@ -26,46 +42,69 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = trim($_POST['username']);
     $password = $_POST['password'];
     
+    // Debug login attempt
+    error_log("Login attempt - Username: " . $username);
+    
     if (empty($username) || empty($password)) {
         $error = "Please enter both username and password.";
+        error_log("Login failed - Empty fields");
     } else {
-        // Check user in database
-        $stmt = $conn->prepare("SELECT id, username, password, is_admin FROM users WHERE BINARY username = ?");
-        $stmt->bind_param("s", $username);
-        $stmt->execute();
-        $result = $stmt->get_result();
-        
-        if ($result->num_rows === 1) {
-            $user = $result->fetch_assoc();
-            if (password_verify($password, $user['password'])) {
-                // Regenerate session ID for security
-                session_regenerate_id(true);
-                
-                // Set session variables
-                $_SESSION['user_id'] = $user['id'];
-                $_SESSION['username'] = $user['username'];
-                $_SESSION['loggedin'] = true;
-                $_SESSION['role'] = $user['is_admin'] ? 'admin' : 'user';
-                unset($_SESSION['on_login_page']); // Remove login page flag
-                
-                // Debug session after login
-                error_log("User login - Session ID: " . session_id());
-                error_log("User login - Session contents: " . print_r($_SESSION, true));
-                
-                // Redirect based on role
-                if ($user['is_admin']) {
-                    header("Location: admin_dashboard.php");
-                } else {
-                    header("Location: booking.php");
-                }
-                exit();
-            } else {
-                $error = "Incorrect password.";
-            }
+        // Check user in database - removed BINARY to make case-insensitive
+        $stmt = $conn->prepare("SELECT id, username, password, is_admin FROM users WHERE LOWER(username) = LOWER(?)");
+        if (!$stmt) {
+            error_log("Prepare failed: " . $conn->error);
+            $error = "Login failed - Database error";
         } else {
-            $error = "Username is incorrect.";
+            $stmt->bind_param("s", $username);
+            $stmt->execute();
+            $result = $stmt->get_result();
+            
+            // Debug query results
+            error_log("Login query - Number of results: " . $result->num_rows);
+            
+            if ($result->num_rows === 1) {
+                $user = $result->fetch_assoc();
+                error_log("User found - ID: " . $user['id'] . ", Username: " . $user['username']);
+                
+                if (password_verify($password, $user['password'])) {
+                    // Clear any existing session data
+                    session_unset();
+                    session_destroy();
+                    session_start();
+                    
+                    // Regenerate session ID for security
+                    session_regenerate_id(true);
+                    
+                    // Set session variables
+                    $_SESSION['user_id'] = $user['id'];
+                    $_SESSION['username'] = $user['username'];
+                    $_SESSION['loggedin'] = true;
+                    $_SESSION['role'] = $user['is_admin'] ? 'admin' : 'user';
+                    $_SESSION['last_activity'] = time();
+                    unset($_SESSION['on_login_page']); // Remove login page flag
+                    
+                    // Debug session after login
+                    error_log("Login successful - Session ID: " . session_id());
+                    error_log("Login successful - Session contents: " . print_r($_SESSION, true));
+                    error_log("Login successful - Session save path: " . session_save_path());
+                    
+                    // Redirect based on role
+                    if ($user['is_admin']) {
+                        header("Location: admin_dashboard.php");
+                    } else {
+                        header("Location: booking.php");
+                    }
+                    exit();
+                } else {
+                    error_log("Login failed - Incorrect password for user: " . $username);
+                    $error = "Incorrect password.";
+                }
+            } else {
+                error_log("Login failed - Username not found: " . $username);
+                $error = "Username is incorrect.";
+            }
+            $stmt->close();
         }
-        $stmt->close();
     }
 }
 ?>

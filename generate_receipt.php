@@ -36,9 +36,6 @@ if (isset($_POST['booking_data'])) {
         $bookingData['hours'] = count($slots);
     }
     
-    // Format amount with Rs. symbol
-    $amount = 'Rs. ' . number_format($bookingData['amount'], 2);
-    
     // Create new PDF document
     $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
     
@@ -110,11 +107,12 @@ if (isset($_POST['booking_data'])) {
     $pdf->SetFont('helvetica', '', 12);
     $pdf->Cell(0, 10, $bookingData['hours'] . ' hour(s)', 0, 1, 'L');
     
-    // Total Amount
+    // Total Amount - Remove ₹ symbol and convert to float
+    $amount = floatval(str_replace('₹', '', $bookingData['amount']));
     $pdf->SetFont('helvetica', 'B', 12);
     $pdf->Cell(60, 10, 'Total Amount:', 0, 0, 'L');
     $pdf->SetFont('helvetica', '', 12);
-    $pdf->Cell(0, 10, $amount, 0, 1, 'L');
+    $pdf->Cell(0, 10, '₹' . number_format($amount, 2), 0, 1, 'L');
     
     // Payment Status
     $pdf->SetFont('helvetica', 'B', 12);
