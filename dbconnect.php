@@ -16,7 +16,7 @@ $servername = getenv('DB_HOST') ?: "localhost";
 $username = getenv('DB_USER') ?: "root";
 $password = getenv('DB_PASS') ?: "";
 $dbname = getenv('DB_NAME') ?: "login_system";
-$port = getenv('DB_PORT') ?: 3306;
+$port = getenv('DB_PORT') ?: 4306;
 
 // Log connection parameters (without password)
 error_log("Attempting database connection with: host=$servername, user=$username, db=$dbname, port=$port");

@@ -14,6 +14,34 @@ error_log("Register page - Session status: " . session_status());
 
 require_once 'dbconnect.php';
 
+// Verify database connection
+if ($conn->connect_error) {
+    error_log("Database connection failed: " . $conn->connect_error);
+    die("Database connection failed. Please try again later.");
+}
+
+// Verify database exists
+$result = $conn->query("SELECT DATABASE() as db");
+if (!$result) {
+    error_log("Failed to get current database: " . $conn->error);
+    die("Database error. Please try again later.");
+}
+
+$current_db = $result->fetch_assoc()['db'];
+error_log("Current database: " . $current_db);
+
+if ($current_db !== "login_system") {
+    error_log("Wrong database selected: " . $current_db);
+    die("Database configuration error. Please try again later.");
+}
+
+// Verify users table exists
+$result = $conn->query("SHOW TABLES LIKE 'users'");
+if ($result->num_rows === 0) {
+    error_log("Users table does not exist");
+    die("Database configuration error. Please try again later.");
+}
+
 // Debug database connection
 error_log("Database connection status: " . ($conn->connect_error ? "Failed" : "Success"));
 error_log("Database name: " . $conn->select_db("login_system") ? "Selected" : "Not selected");
@@ -44,17 +72,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Debug input
     error_log("Registration attempt - Username: " . $username);
     error_log("Registration attempt - Email: " . $email);
+    error_log("Registration attempt - Password length: " . strlen($password));
     
     // Check if this is an admin account
     $is_admin = (strpos($username, '@admin') !== false) ? 1 : 0;
+    error_log("Is admin account: " . ($is_admin ? "Yes" : "No"));
     
     // Validate input
     if (empty($username) || empty($email) || empty($password) || empty($confirm_password)) {
         $error = "Please fill in all fields.";
+        error_log("Registration failed - Empty fields");
     } elseif ($password !== $confirm_password) {
         $error = "Passwords do not match.";
+        error_log("Registration failed - Passwords don't match");
     } elseif (strlen($password) < 6) {
         $error = "Password must be at least 6 characters long.";
+        error_log("Registration failed - Password too short");
     } else {
         // Check if username or email already exists
         $stmt = $conn->prepare("SELECT id FROM users WHERE username = ? OR email = ?");
@@ -99,16 +132,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             error_log("User verified in database - ID: " . $user_id);
                             $user_data = $result->fetch_assoc();
                             error_log("User data: " . print_r($user_data, true));
+                            
+                            // Set a success message in session
+                            $_SESSION['registration_success'] = "Registration successful! Please login with your credentials.";
+                            
+                            // Redirect to login page
+                            header("Location: login.php");
+                            exit();
                         } else {
                             error_log("WARNING: User not found after insert - ID: " . $user_id);
+                            $error = "Registration failed - User not found after insert";
                         }
-                        
-                        // Set a success message in session
-                        $_SESSION['registration_success'] = "Registration successful! Please login with your credentials.";
-                        
-                        // Redirect to login page
-                        header("Location: login.php");
-                        exit();
                     } else {
                         error_log("Execute failed: " . $stmt->error . " - SQL State: " . $stmt->sqlstate);
                         $error = "Registration failed - Please try again";
