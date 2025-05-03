@@ -67,25 +67,66 @@ try {
         throw new Exception("Failed to start transaction: " . $conn->error);
     }
 
-    // Insert booking for each selected slot
+    // Check for existing bookings
+    $stmt = $conn->prepare("
+        SELECT COUNT(*) as count 
+        FROM bookings b
+        JOIN turfs t ON b.turf_id = t.id
+        JOIN locations l ON t.location_id = l.id
+        WHERE b.booking_date = ? 
+        AND l.name = ? 
+        AND t.name = ? 
+        AND b.booking_time = ?
+    ");
+
     foreach ($selected_slots as $slot) {
-        $stmt = $conn->prepare("INSERT INTO bookings (user_id, location, turf, booking_date, booking_time) VALUES (?, ?, ?, ?, ?)");
-        if (!$stmt) {
-            throw new Exception("Failed to prepare statement: " . $conn->error);
+        $stmt->bind_param("ssss", $booking_date, $location, $turf, $slot);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $count = $result->fetch_assoc()['count'];
+        
+        if ($count > 0) {
+            echo json_encode([
+                'status' => 'error',
+                'message' => "The time slot $slot is already booked. Please select a different time."
+            ]);
+            exit;
         }
+    }
 
-        error_log("Preparing to insert booking: User={$user_id}, Date={$booking_date}, Time={$slot}");
+    // Get turf_id
+    $stmt = $conn->prepare("
+        SELECT t.id as turf_id 
+        FROM turfs t
+        JOIN locations l ON t.location_id = l.id
+        WHERE l.name = ? AND t.name = ?
+    ");
+    $stmt->bind_param("ss", $location, $turf);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    $turf_data = $result->fetch_assoc();
+    
+    if (!$turf_data) {
+        echo json_encode([
+            'status' => 'error',
+            'message' => 'Invalid turf selection'
+        ]);
+        exit;
+    }
+    
+    $turf_id = $turf_data['turf_id'];
 
-        if (!$stmt->bind_param("issss", $user_id, $location, $turf, $booking_date, $slot)) {
-            throw new Exception("Failed to bind parameters: " . $stmt->error);
-        }
+    // Insert bookings
+    $stmt = $conn->prepare("
+        INSERT INTO bookings (user_id, turf_id, booking_date, booking_time) 
+        VALUES (?, ?, ?, ?)
+    ");
 
+    foreach ($selected_slots as $slot) {
+        $stmt->bind_param("iiss", $user_id, $turf_id, $booking_date, $slot);
         if (!$stmt->execute()) {
-            throw new Exception("Failed to execute statement: " . $stmt->error);
+            throw new Exception("Failed to insert booking: " . $stmt->error);
         }
-
-        error_log("Successfully inserted booking. Insert ID: " . $stmt->insert_id);
-        $stmt->close();
     }
 
     // Commit transaction
